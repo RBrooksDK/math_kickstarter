@@ -285,63 +285,126 @@ body, .md-typeset, .md-content, .md-main, .md-typeset p, .md-typeset li, .md-typ
   -ms-overflow-style: none; /* IE 10+ */
 }
 
-[data-md-color-scheme="default"] {
-
-/* Change the border color for the "answer" admonition */
-.md-typeset .admonition.answer,
-.md-typeset details.answer {
-  border-color: #E5AB48; /* Green border for "answer" */
-  outline: none; /* Remove any focus outline */
-  box-shadow: none; /* Remove any default box shadow */
+[data-md-color-scheme="default"] .md-typeset .admonition.answer,
+[data-md-color-scheme="default"] .md-typeset details.answer {
+  border-color: #E5AB48;
+  outline: none;
+  box-shadow: none;
 }
 
-/* Change the background color of the title for "answer" admonitions */
-.md-typeset .answer > .admonition-title,
-.md-typeset .answer > summary {
-  background-color: #FFEFD3; /* Light green background for title */
-  outline: none; /* Remove any focus outline */
-  box-shadow: none; /* Remove any default box shadow */
+[data-md-color-scheme="default"] .md-typeset .answer > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .answer > summary {
+  background-color: #FFEFD3;
+  outline: none;
+  box-shadow: none;
 }
 
-/* Change the icon color for "answer" admonitions */
-.md-typeset .answer > .admonition-title::before,
-.md-typeset .answer > summary::before {
-  background-color: #E5AB48; /* Green icon color */
-  -webkit-mask-image: var(--md-admonition-icon--success); /* Default icon */
+[data-md-color-scheme="default"] .md-typeset .answer > .admonition-title::before,
+[data-md-color-scheme="default"] .md-typeset .answer > summary::before {
+  background-color: #E5AB48;
+  -webkit-mask-image: var(--md-admonition-icon--success);
           mask-image: var(--md-admonition-icon--success);
 }
 
-/* Change color for collapsible indicator in "answer" */
-.md-typeset details[open].answer summary::after,
-.md-typeset details.answer summary::after {
-  color: #E5AB48; /* Green for collapsible indicator */
+[data-md-color-scheme="default"] .md-typeset details[open].answer summary::after,
+[data-md-color-scheme="default"] .md-typeset details.answer summary::after {
+  color: #E5AB48;
 }
 
-/* Change the border color for the "question" admonition */
-.md-typeset .admonition.question,
-.md-typeset details.question {
-  border-color: #2DB499; /* Green border for "question" */
-  outline: none; /* Remove any focus outline */
-  box-shadow: none; /* Remove any default box shadow */
+[data-md-color-scheme="default"] .md-typeset .admonition.question,
+[data-md-color-scheme="default"] .md-typeset details.question {
+  border-color: #6CA2C6;
+  outline: none;
+  box-shadow: none;
 }
 
-/* Change the background color of the title for "question" admonitions */
-.md-typeset .question > .admonition-title,
-.md-typeset .question > summary {
-  background-color: #CCF1EA; /* Light green background for title */
-  outline: none; /* Remove any focus outline */
-  box-shadow: none; /* Remove any default box shadow */
+[data-md-color-scheme="default"] .md-typeset .question > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .question > summary {
+  background-color: #E9F1F6;
+  outline: none;
+  box-shadow: none;
 }
 
-/* Change the icon color for "question" admonitions */
-.md-typeset .question > .admonition-title::before,
-.md-typeset .question > summary::before {
-  background-color: #2DB499; /* Green icon color */
+[data-md-color-scheme="default"] .md-typeset .question > .admonition-title::before,
+[data-md-color-scheme="default"] .md-typeset .question > summary::before {
+  background-color: #6CA2C6;
 }
 
-/* Change color for collapsible indicator in "question" */
-.md-typeset details[open].question summary::after,
-.md-typeset details.question summary::after {
-  color: #2DB499; /* Green for collapsible indicator */
+[data-md-color-scheme="default"] .md-typeset details[open].question summary::after,
+[data-md-color-scheme="default"] .md-typeset details.question summary::after {
+  color: #6CA2C6;
 }
+
+[data-md-color-scheme="default"] .md-typeset .admonition.success,
+[data-md-color-scheme="default"] .md-typeset details.success {
+  border-color: #6CA2C6;
+  outline: none;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="default"] .md-typeset .success > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .success > summary {
+  background-color: #E9F1F6;
+  outline: none;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="default"] .md-typeset .success > .admonition-title::before,
+[data-md-color-scheme="default"] .md-typeset .success > summary::before {
+  background-color: #6CA2C6;
+}
+
+[data-md-color-scheme="default"] .md-typeset details[open].success summary::after,
+[data-md-color-scheme="default"] .md-typeset details.success summary::after {
+  color: #6CA2C6;
+}
+
+/* "success" admonition in dark mode — flat style, no glow */
+[data-md-color-scheme="slate"] .md-typeset .admonition.success,
+[data-md-color-scheme="slate"] .md-typeset details.success {
+  border-color: #6CA2C6;
+  outline: none;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .success > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .success > summary {
+  background-color: rgba(108, 162, 198, 0.15);
+  outline: none;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .success > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .success > summary::before {
+  background-color: #6CA2C6;
+}
+
+[data-md-color-scheme="slate"] .md-typeset details[open].success summary::after,
+[data-md-color-scheme="slate"] .md-typeset details.success summary::after {
+  color: #6CA2C6;
+}
+
+/* "question" admonition in dark mode — flat style, no glow */
+[data-md-color-scheme="slate"] .md-typeset .admonition.question,
+[data-md-color-scheme="slate"] .md-typeset details.question {
+  border-color: #6CA2C6;
+  outline: none;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .question > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .question > summary {
+  background-color: rgba(108, 162, 198, 0.15);
+  outline: none;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .question > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .question > summary::before {
+  background-color: #6CA2C6;
+}
+
+[data-md-color-scheme="slate"] .md-typeset details[open].question summary::after,
+[data-md-color-scheme="slate"] .md-typeset details.question summary::after {
+  color: #6CA2C6;
 }
