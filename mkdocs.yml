@@ -1,6 +1,6 @@
 # Project information
 site_name: VIA University College
-site_url: https://rbrooksdk.github.io/math_kickstarter
+site_url: https://rbrooksdk.github.io/math_kickstarter/
 site_author: Richard Brooks
 site_description: Self-paced mathematics brush-up for engineering students at VIA University College
 docs_dir: .
@@ -24,7 +24,7 @@ theme:
   language: en
   default_theme: default
   # custom_dir: overrides
-  favicon: figures/vialogo_white.png
+  favicon: /math_kickstarter/figures/vialogo_white.png
   logo: figures/vialogo.png
   icon:
     repo: fontawesome/brands/github
