@@ -1,0 +1,159 @@
+# Project information
+site_name: Math Kickstarter
+site_url: https://rbrooksdk.github.io/math_kickstarter
+site_author: Richard Brooks
+site_description: Course page for Math Kickstarter at VIA University College
+docs_dir: .
+site_dir: ../site
+# Repository information
+repo_name: Github
+repo_url: https://github.com/RBrooksDK/math_kickstarter
+
+# Copyright
+copyright: Copyright &copy; 2026 Richard Brooks
+
+# Configurations
+theme:
+  name: material
+  language: en
+  default_theme: default
+  # custom_dir: overrides
+  favicon: figures/vialogo_white.png
+  logo: figures/vialogo.png
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/chevron-right-circle
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: orange
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to light mode
+  font:
+    text: "VIA Type"
+    code: "Roboto Mono"
+
+plugins:
+  - same-dir
+  - blog
+  - search
+  - mkdocs_quiz:
+      lang: en
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js
+
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: material/email
+      link: mailto:rib@via.dk
+    - icon: fontawesome/brands/github
+      link: https://github.com/RBrooksDK/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rbrooks-dk/
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: README.md
+  - Sessions:
+    - Sessions/README.md
+    - 01 Introduction to Linear Algebra: 01_Introduction_to_Linear_Algebra/README.md
+    - 02 Independence and Linear Transformations: 02_Independence_and_Linear_Transformations/README.md
+    - 03 Matrix Algebra and Determinants: 03_Matrix_Algebra_and_Determinants/README.md
+    - 04 Vector Spaces: 04_Vector_Spaces/README.md
+    - 05 Change of Basis: 05_Change_of_Basis/README.md
+    - 06 Eigenvalues: 06_Eigenvalues/README.md
+    - 07 More Linear Transformations and Differential Equations: 07_More_Linear_Transformations_and_Differential_Equations/README.md
+    - 08 Orthogonality: 08_Orthogonality/README.md
+    - 09 Gram-Schmidt and Least Squares: 09_Gram_Schmidt_and_Least_Squares/README.md
+    - 10 Symmetric Matrices, SVD and PCA 1: 10_Symmetric_Matrices_SVD_and_PCA_1/README.md
+    - 11 Symmetric Matrices, SVD and PCA 2: 11_Symmetric_Matrices_SVD_and_PCA_2/README.md
+    - 12 Recap and Conclusion: 12_Recap_and_Conclusion/README.md    
+  - Recordings: pages/recordings.md
+  - Online Resources: pages/online_resources.md
+  - General Resources: https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/IgDR5ncW87JbT4OdWAKYVgNoAcUuggmL9dH0Vzcx_tlmORk?e=7bG1d5
+  - Exam: pages/exam.md
+  - FAQ: pages/faq.md
+  - About: https://rbrooksdk.github.io
