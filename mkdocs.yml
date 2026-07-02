@@ -12,7 +12,7 @@ exclude_docs: |
   .github/
   requirements.txt
 # Repository information
-repo_name: Github
+repo_name: math_kickstarter
 repo_url: https://github.com/RBrooksDK/math_kickstarter
 
 # Copyright
@@ -40,7 +40,6 @@ theme:
     # - header.autohide
     - navigation.expand
     - navigation.footer
-    # - navigation.indexes
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
@@ -106,9 +105,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      auto_append:
-        - includes/mkdocs.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

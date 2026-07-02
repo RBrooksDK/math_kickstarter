@@ -35,6 +35,9 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Build
+        run: mkdocs build --strict
+
       - name: Deploy
         run: mkdocs gh-deploy --force
         env:

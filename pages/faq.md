@@ -35,7 +35,10 @@
 ### Contact
 
 ??? question "Who should I contact if I have questions about the material?"
-    Contact [Richard Brooks](mailto:rib@via.dk) for questions about the course content.
+    Contact Assistant Professor Mette Bjerg, [memo@via.dk](mailto:memo@via.dk), for questions about the course content.
 
 ??? question "Who should I contact about the pre-test?"
-    Contact your programme coordinator for questions about the pre-test or programme requirements.
+    Contact Associate Professor Richard Brooks, [rib@via.dk](mailto:rib@via.dk), for questions about the pre-test.
+
+??? question "Who should I contact about my specific programme requirements?"
+    Contact your programme coordinator for questions about your specific programme requirements.

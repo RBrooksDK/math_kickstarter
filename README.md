@@ -13,7 +13,7 @@ This site is **not** a replacement for the full mathematics curriculum — it co
 
 ## <i class="fas fa-clipboard-check" style="color:#6CA2C6"></i> Before you begin: the pre-test
 
-!!! warning "Have you taken the pre-test?"
+???+ Success "Have you taken the pre-test?"
 
     Before using this site, you should complete the **mathematics pre-test** provided by your programme.
 
@@ -42,8 +42,8 @@ If you need several topics, we suggest starting with Basic Arithmetic and Equati
 
 ## <i class="fas fa-envelope" style="color:#6CA2C6"></i> Contact
 
-Questions about the course material, contact Assistant Professor Mette Bjerg, [memo@via.dk](memo@via.dk).
+Questions about the course material, contact Assistant Professor Mette Bjerg, [memo@via.dk](mailto:memo@via.dk).
 
-Questions about the pre-test or this site, contact Associate Professor Richard Brooks, [rib@via.dk](rib@via.dk).
+Questions about the pre-test or this site, contact Associate Professor Richard Brooks, [rib@via.dk](mailto:rib@via.dk).
 
 Questions about your specific programme requirements, contact your programme coordinator.
