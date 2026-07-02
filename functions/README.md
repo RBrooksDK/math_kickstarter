@@ -16,7 +16,9 @@ After working through this topic, you should be able to:
 
 ## Videos
 
-#### 1. Functions and graphs
+### 1. Functions and graphs
+
+See functions as input–output rules, identify domain and range, and read values from graphs.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -27,7 +29,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 2. Common function types
+### 2. Common function types
+
+Recognise linear, power, and exponential functions and how each one grows or changes.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -38,7 +42,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 3. Inverse functions
+### 3. Inverse functions
+
+Find inverse functions where they exist and connect exponentials with logarithms.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe

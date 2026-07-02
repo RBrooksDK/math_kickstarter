@@ -16,7 +16,9 @@ After working through this topic, you should be able to:
 
 ## Videos
 
-#### 1. Derivatives and tangents
+### 1. Derivatives and tangents
+
+Interpret the derivative as the slope of a tangent and as a rate of change.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -27,7 +29,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 2. Differentiation rules
+### 2. Differentiation rules
+
+Differentiate sums, differences, and constant multiples, and use common derivative formulas.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe

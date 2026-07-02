@@ -16,7 +16,9 @@ After working through this topic, you should be able to:
 
 ## Videos
 
-#### 1. Vectors in 2D
+### 1. Vectors in 2D
+
+Distinguish vectors from scalars, write vectors in component form, and add, subtract, and scale them.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -27,7 +29,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 2. Dot product
+### 2. Dot product
+
+Compute the dot product, find vector length, and determine angles between vectors.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -38,7 +42,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 3. Parametric equation of a line *(optional)*
+### 3. Parametric equation of a line *(optional)*
+
+Describe a line in the plane using a position vector, a direction vector, and a parameter.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe

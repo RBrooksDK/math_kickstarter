@@ -17,7 +17,9 @@ After working through this topic, you should be able to:
 
 ## Videos
 
-#### 1. Indefinite integrals and antiderivatives
+### 1. Indefinite integrals and antiderivatives
+
+Find antiderivatives and evaluate basic indefinite integrals, including the constant of integration.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -28,7 +30,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 2. Definite integrals and areas
+### 2. Definite integrals and areas
+
+Evaluate definite integrals and interpret them as signed area under a curve.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe

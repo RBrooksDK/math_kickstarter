@@ -19,7 +19,9 @@ After working through this topic, you should be able to:
 
 ## Videos
 
-#### 1. Order of operations
+### 1. Order of operations
+
+Apply the order of operations (PEMDAS): parentheses, exponents, multiplication and division, then addition and subtraction.
 
 <!-- Replace src with Google Drive preview URL -->
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
@@ -31,7 +33,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 2. Fractions
+### 2. Fractions
+
+Work with numerators and denominators, find common denominators, and add, multiply, and divide fractions.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -42,7 +46,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 3. Exponents and radicals
+### 3. Exponents and radicals
+
+Use the laws of exponents, including negative and zero powers, and simplify expressions with square roots.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -53,7 +59,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 4. Parentheses
+### 4. Parentheses
+
+Expand brackets using the distributive law and recognise special products such as $(a+b)^2$.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -64,7 +72,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 5. Equations
+### 5. Equations
+
+Understand what the equals sign means and solve linear equations by applying the same operation to both sides.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -75,7 +85,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 6. Quadratic equations
+### 6. Quadratic equations
+
+Write quadratic equations in standard form, use the quadratic formula, and interpret the discriminant.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
@@ -86,7 +98,9 @@ After working through this topic, you should be able to:
     </iframe>
 </div>
 
-#### 7. Rearranging formulae
+### 7. Rearranging formulae
+
+Make a different variable the subject of a formula by undoing operations in reverse order.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
     <iframe
