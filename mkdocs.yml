@@ -34,6 +34,7 @@ theme:
     # - header.autohide
     - navigation.expand
     - navigation.footer
+    # - navigation.indexes
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
@@ -136,8 +137,8 @@ extra_css:
 
 nav:
   - Home: README.md
-  - Getting Started: pages/getting_started.md
   - Topics:
+    - Topics/README.md
     - Basic Arithmetic and Equations: basic_arithmetic_and_equations/README.md
     - Functions: functions/README.md
     - Differential Calculus: differential_calculus/README.md

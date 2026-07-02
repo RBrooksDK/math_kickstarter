@@ -12,7 +12,7 @@
     No. Use the pre-test results to identify which topic areas you should review. Focus on those topics rather than working through the entire site from start to finish.
 
 ??? question "What topics are covered?"
-    The site covers five areas: Basic Arithmetic and Equations, Functions, Differential Calculus, Integral Calculus, and Vectors in 2D. See the topic table on the [home page](/math_kickstarter/).
+    The site covers five areas: Basic Arithmetic and Equations, Functions, Differential Calculus, Integral Calculus, and Vectors in 2D. See the [Topics overview](/math_kickstarter/Topics/) for details.
 
 ??? question "Are advanced calculus techniques included?"
     No. This is a brush-up course. Topics such as the product, quotient, and chain rules for differentiation, and integration by substitution or partial fractions, are deliberately excluded.
