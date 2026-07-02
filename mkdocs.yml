@@ -2,7 +2,7 @@
 site_name: Math Kickstarter
 site_url: https://rbrooksdk.github.io/math_kickstarter
 site_author: Richard Brooks
-site_description: Course page for Math Kickstarter at VIA University College
+site_description: Self-paced mathematics brush-up for engineering students at VIA University College
 docs_dir: .
 site_dir: ../site
 # Repository information
@@ -67,7 +67,6 @@ theme:
 
 plugins:
   - same-dir
-  - blog
   - search
   - mkdocs_quiz:
       lang: en
@@ -137,23 +136,11 @@ extra_css:
 
 nav:
   - Home: README.md
-  - Sessions:
-    - Sessions/README.md
-    - 01 Introduction to Linear Algebra: 01_Introduction_to_Linear_Algebra/README.md
-    - 02 Independence and Linear Transformations: 02_Independence_and_Linear_Transformations/README.md
-    - 03 Matrix Algebra and Determinants: 03_Matrix_Algebra_and_Determinants/README.md
-    - 04 Vector Spaces: 04_Vector_Spaces/README.md
-    - 05 Change of Basis: 05_Change_of_Basis/README.md
-    - 06 Eigenvalues: 06_Eigenvalues/README.md
-    - 07 More Linear Transformations and Differential Equations: 07_More_Linear_Transformations_and_Differential_Equations/README.md
-    - 08 Orthogonality: 08_Orthogonality/README.md
-    - 09 Gram-Schmidt and Least Squares: 09_Gram_Schmidt_and_Least_Squares/README.md
-    - 10 Symmetric Matrices, SVD and PCA 1: 10_Symmetric_Matrices_SVD_and_PCA_1/README.md
-    - 11 Symmetric Matrices, SVD and PCA 2: 11_Symmetric_Matrices_SVD_and_PCA_2/README.md
-    - 12 Recap and Conclusion: 12_Recap_and_Conclusion/README.md    
-  - Recordings: pages/recordings.md
-  - Online Resources: pages/online_resources.md
-  - General Resources: https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/IgDR5ncW87JbT4OdWAKYVgNoAcUuggmL9dH0Vzcx_tlmORk?e=7bG1d5
-  - Exam: pages/exam.md
+  - Getting Started: pages/getting_started.md
+  - Topics:
+    - Basic Arithmetic and Equations: basic_arithmetic_and_equations/README.md
+    - Functions: functions/README.md
+    - Differential Calculus: differential_calculus/README.md
+    - Integral Calculus: integral_calculus/README.md
+    - Vectors in 2D: vectors/README.md
   - FAQ: pages/faq.md
-  - About: https://rbrooksdk.github.io
