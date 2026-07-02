@@ -42,7 +42,8 @@ If you need several topics, we suggest starting with Basic Arithmetic and Equati
 
 ## <i class="fas fa-envelope" style="color:#6CA2C6"></i> Contact
 
-Course material: Assistant Professor [Mette Bjerg](memo@via.dk),
-    Associate Professor [Richard Brooks](https://rbrooksdk.github.io), [rib@via.dk](mailto:rib@via.dk)
+Questions about the course material, contact Assistant Professor [Mette Bjerg](mailto:memo@via.dk).
 
-Questions about the pre-test or programme requirements: contact your programme coordinator.
+Questions about the pre-test or this site, contact Associate Professor [Richard Brooks](mailto:rib@via.dk).
+
+Questions about your specific programme requirements, contact your programme coordinator.
