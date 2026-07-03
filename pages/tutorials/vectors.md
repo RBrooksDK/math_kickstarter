@@ -15,16 +15,16 @@ Vectors are drawn as arrows. We write $\vec{a}$ (arrow over the letter) to show 
 
 ### Component form
 
-A 2D vector can be written as an ordered pair:
+A 2D vector is written as a **column vector**:
 
-$$\mathbf{a} = (a_1, a_2)$$
+$$\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$$
 
-where $a_1$ is the horizontal component and $a_2$ is the vertical component.
+where $a_1$ is the horizontal component (top entry) and $a_2$ is the vertical component (bottom entry).
 
-**Worked example:** Draw $\mathbf{a} = (-1, 3)$.
+**Worked example:** Draw $\mathbf{a} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}$.
 
 <p align="center">
-  <img src="/math_kickstarter/figures/vector_a_minus1_3.png" alt="Vector a = (-1, 3) from the origin" />
+  <img src="/math_kickstarter/figures/vector_a_minus1_3.png" alt="Vector a with components -1 and 3 from the origin" />
 </p>
 
 From the origin: one step left ($-1$), then three steps up ($3$). The dashed lines show the horizontal and vertical components. The same vector can be drawn anywhere — only magnitude and direction matter.
@@ -33,42 +33,42 @@ From the origin: one step left ($-1$), then three steps up ($3$). The dashed lin
 
 Multiply each component by the scalar $c$:
 
-$$c\mathbf{a} = (ca_1,\; ca_2)$$
+$$c\mathbf{a} = \begin{pmatrix} ca_1 \\ ca_2 \end{pmatrix}$$
 
 - $c > 1$ stretches the vector
 - $0 < c < 1$ shortens it
 - $c = -1$ reverses direction ($-\mathbf{a}$)
 
-**Worked example:** If $\mathbf{a} = (-1, 3)$, find $3\mathbf{a}$ and $-\mathbf{a}$.
+**Worked example:** If $\mathbf{a} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}$, find $3\mathbf{a}$ and $-\mathbf{a}$.
 
-$$3\mathbf{a} = (-3, 9), \qquad -\mathbf{a} = (1, -3)$$
+$$3\mathbf{a} = \begin{pmatrix} -3 \\ 9 \end{pmatrix}, \qquad -\mathbf{a} = \begin{pmatrix} 1 \\ -3 \end{pmatrix}$$
 
 ### Addition and subtraction
 
 Add or subtract **component by component**:
 
-$$\mathbf{a} + \mathbf{b} = (a_1 + b_1,\; a_2 + b_2)$$
+$$\mathbf{a} + \mathbf{b} = \begin{pmatrix} a_1 + b_1 \\ a_2 + b_2 \end{pmatrix}$$
 
-$$\mathbf{a} - \mathbf{b} = (a_1 - b_1,\; a_2 - b_2)$$
+$$\mathbf{a} - \mathbf{b} = \begin{pmatrix} a_1 - b_1 \\ a_2 - b_2 \end{pmatrix}$$
 
 Geometrically, place vectors tip-to-tail (or use the parallelogram rule). Note that $\mathbf{a} - \mathbf{b} = \mathbf{a} + (-\mathbf{b})$.
 
-**Worked example:** With $\mathbf{a} = (-1, 3)$ and $\mathbf{b} = (4, 3)$:
+**Worked example:** With $\mathbf{a} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 4 \\ 3 \end{pmatrix}$:
 
-$$\mathbf{a} + \mathbf{b} = (3, 6), \qquad \mathbf{a} - \mathbf{b} = (-5, 0)$$
+$$\mathbf{a} + \mathbf{b} = \begin{pmatrix} 3 \\ 6 \end{pmatrix}, \qquad \mathbf{a} - \mathbf{b} = \begin{pmatrix} -5 \\ 0 \end{pmatrix}$$
 
 ??? tip "Check your understanding"
     Try [Exercise 1](/math_kickstarter/vectors/#exercise-1) and [Exercise 7](/math_kickstarter/vectors/#exercise-7) on the topic page.
 
 ## 2. Dot product
 
-The **dot product** (also called scalar product) of $\mathbf{a} = (a_1, a_2)$ and $\mathbf{b} = (b_1, b_2)$ is:
+The **dot product** (also called scalar product) of $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} b_1 \\ b_2 \end{pmatrix}$ is:
 
 $$\mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2$$
 
 The result is a **scalar**, not a vector.
 
-**Worked example:** For $\mathbf{a} = (-3, 4)$ and $\mathbf{b} = (1, 2)$:
+**Worked example:** For $\mathbf{a} = \begin{pmatrix} -3 \\ 4 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$:
 
 $$\mathbf{a} \cdot \mathbf{b} = (-3)(1) + (4)(2) = -3 + 8 = 5$$
 
@@ -78,7 +78,7 @@ $$|\mathbf{a}|^2 = \mathbf{a} \cdot \mathbf{a} = a_1^2 + a_2^2, \qquad |\mathbf{
 
 This is the Pythagorean theorem applied to the components.
 
-**Worked example:** For $\mathbf{a} = (-3, 4)$:
+**Worked example:** For $\mathbf{a} = \begin{pmatrix} -3 \\ 4 \end{pmatrix}$:
 
 $$|\mathbf{a}| = \sqrt{(-3)^2 + 4^2} = \sqrt{9 + 16} = 5$$
 
@@ -90,7 +90,7 @@ So (when both vectors are nonzero):
 
 $$\cos\theta = \frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$
 
-**Worked example — perpendicular vectors:** For $\mathbf{a} = (6, -2)$ and $\mathbf{b} = \left(\dfrac{1}{3}, 1\right)$:
+**Worked example — perpendicular vectors:** For $\mathbf{a} = \begin{pmatrix} 6 \\ -2 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} \dfrac{1}{3} \\ 1 \end{pmatrix}$:
 
 $$\mathbf{a} \cdot \mathbf{b} = 6 \cdot \frac{1}{3} + (-2)(1) = 2 - 2 = 0$$
 
@@ -102,7 +102,7 @@ The projection of $\mathbf{a}$ onto $\mathbf{b}$ is the component of $\mathbf{a}
 
 $$\text{proj}_{\mathbf{b}}(\mathbf{a}) = \frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{b}|^2}\,\mathbf{b}$$
 
-**Worked example:** For $\mathbf{a} = (2, 8)$ and $\mathbf{b} = (8, 2)$:
+**Worked example:** For $\mathbf{a} = \begin{pmatrix} 2 \\ 8 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 8 \\ 2 \end{pmatrix}$:
 
 $$\mathbf{a} \cdot \mathbf{b} = 16 + 16 = 32, \qquad |\mathbf{b}|^2 = 64 + 4 = 68$$
 
@@ -119,27 +119,27 @@ $$\mathbf{r} = \mathbf{r}_0 + t\mathbf{d}$$
 
 As $t$ ranges over all real numbers, $\mathbf{r}$ traces every point on the line.
 
-In components, with $\mathbf{r}_0 = (x_0, y_0)$ and $\mathbf{d} = (d_1, d_2)$:
+In components, with $\mathbf{r}_0 = \begin{pmatrix} x_0 \\ y_0 \end{pmatrix}$ and $\mathbf{d} = \begin{pmatrix} d_1 \\ d_2 \end{pmatrix}$:
 
 $$x = x_0 + t d_1, \qquad y = y_0 + t d_2$$
 
 The same line can be described in many ways (different starting points or direction vectors).
 
-**Worked example:** A line through $(3, 0)$ with direction $(3, 2)$:
+**Worked example:** A line through $\begin{pmatrix} 3 \\ 0 \end{pmatrix}$ with direction $\begin{pmatrix} 3 \\ 2 \end{pmatrix}$:
 
-$$\mathbf{r} = (3, 0) + t(3, 2)$$
+$$\mathbf{r} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} + t\begin{pmatrix} 3 \\ 2 \end{pmatrix}$$
 
 When $t = 10$:
 
-$$\mathbf{r} = (3 + 30,\; 0 + 20) = (33, 20)$$
+$$\mathbf{r} = \begin{pmatrix} 3 + 30 \\ 0 + 20 \end{pmatrix} = \begin{pmatrix} 33 \\ 20 \end{pmatrix}$$
 
-**Worked example — parallel line:** Through $(2, 4)$ with the same direction $(3, 2)$:
+**Worked example — parallel line:** Through $\begin{pmatrix} 2 \\ 4 \end{pmatrix}$ with the same direction $\begin{pmatrix} 3 \\ 2 \end{pmatrix}$:
 
-$$\mathbf{r} = (2, 4) + t(3, 2)$$
+$$\mathbf{r} = \begin{pmatrix} 2 \\ 4 \end{pmatrix} + t\begin{pmatrix} 3 \\ 2 \end{pmatrix}$$
 
-**Worked example — orthogonal line:** A direction vector orthogonal to $(3, 2)$ satisfies $3d_1 + 2d_2 = 0$. One choice is $\mathbf{d} = (-2, 3)$. A line through $(3, 0)$:
+**Worked example — orthogonal line:** A direction vector orthogonal to $\begin{pmatrix} 3 \\ 2 \end{pmatrix}$ satisfies $3d_1 + 2d_2 = 0$. One choice is $\mathbf{d} = \begin{pmatrix} -2 \\ 3 \end{pmatrix}$. A line through $\begin{pmatrix} 3 \\ 0 \end{pmatrix}$:
 
-$$\mathbf{r} = (3, 0) + t(-2, 3)$$
+$$\mathbf{r} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} + t\begin{pmatrix} -2 \\ 3 \end{pmatrix}$$
 
 ??? tip "Check your understanding"
     Try [Exercises 8, 9, and 10](/math_kickstarter/vectors/#exercise-8) on the topic page.
