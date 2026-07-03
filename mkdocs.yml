@@ -24,7 +24,7 @@ theme:
   language: en
   default_theme: default
   # custom_dir: overrides
-  favicon: /math_kickstarter/figures/vialogo_white.png
+  favicon: figures/vialogo_white.png
   logo: figures/vialogo.png
   icon:
     repo: fontawesome/brands/github
@@ -146,4 +146,5 @@ nav:
     - Differential Calculus: differential_calculus/README.md
     - Integral Calculus: integral_calculus/README.md
     - Vectors in 2D: vectors/README.md
+  - Tutorials: pages/tutorials.md
   - FAQ: pages/faq.md
