@@ -1058,58 +1058,58 @@
 </table>
 <p>Vectors are drawn as arrows. We write <span class="arithmatex">\(\vec{a}\)</span> (arrow over the letter) to show it is a vector, or use <strong>bold</strong> <span class="arithmatex">\(\mathbf{a}\)</span> in printed text. Sometimes a bar, <span class="arithmatex">\(\bar{a}\)</span>, is used instead, but the arrow <span class="arithmatex">\(\vec{a}\)</span> is the standard notation for vectors. Here we use <span class="arithmatex">\(\mathbf{a}\)</span> for vectors.</p>
 <h3 id="component-form">Component form<a class="headerlink" href="#component-form" title="Permanent link">&para;</a></h3>
-<p>A 2D vector can be written as an ordered pair:</p>
-<div class="arithmatex">\[\mathbf{a} = (a_1, a_2)\]</div>
-<p>where <span class="arithmatex">\(a_1\)</span> is the horizontal component and <span class="arithmatex">\(a_2\)</span> is the vertical component.</p>
-<p><strong>Worked example:</strong> Draw <span class="arithmatex">\(\mathbf{a} = (-1, 3)\)</span>.</p>
+<p>A 2D vector is written as a <strong>column vector</strong>:</p>
+<div class="arithmatex">\[\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}\]</div>
+<p>where <span class="arithmatex">\(a_1\)</span> is the horizontal component (top entry) and <span class="arithmatex">\(a_2\)</span> is the vertical component (bottom entry).</p>
+<p><strong>Worked example:</strong> Draw <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}\)</span>.</p>
 <p align="center">
-  <img src="/math_kickstarter/figures/vector_a_minus1_3.png" alt="Vector a = (-1, 3) from the origin" />
+  <img src="/math_kickstarter/figures/vector_a_minus1_3.png" alt="Vector a with components -1 and 3 from the origin" />
 </p>
 
 <p>From the origin: one step left (<span class="arithmatex">\(-1\)</span>), then three steps up (<span class="arithmatex">\(3\)</span>). The dashed lines show the horizontal and vertical components. The same vector can be drawn anywhere — only magnitude and direction matter.</p>
 <h3 id="scaling">Scaling<a class="headerlink" href="#scaling" title="Permanent link">&para;</a></h3>
 <p>Multiply each component by the scalar <span class="arithmatex">\(c\)</span>:</p>
-<div class="arithmatex">\[c\mathbf{a} = (ca_1,\; ca_2)\]</div>
+<div class="arithmatex">\[c\mathbf{a} = \begin{pmatrix} ca_1 \\ ca_2 \end{pmatrix}\]</div>
 <ul>
 <li><span class="arithmatex">\(c &gt; 1\)</span> stretches the vector</li>
 <li><span class="arithmatex">\(0 &lt; c &lt; 1\)</span> shortens it</li>
 <li><span class="arithmatex">\(c = -1\)</span> reverses direction (<span class="arithmatex">\(-\mathbf{a}\)</span>)</li>
 </ul>
-<p><strong>Worked example:</strong> If <span class="arithmatex">\(\mathbf{a} = (-1, 3)\)</span>, find <span class="arithmatex">\(3\mathbf{a}\)</span> and <span class="arithmatex">\(-\mathbf{a}\)</span>.</p>
-<div class="arithmatex">\[3\mathbf{a} = (-3, 9), \qquad -\mathbf{a} = (1, -3)\]</div>
+<p><strong>Worked example:</strong> If <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}\)</span>, find <span class="arithmatex">\(3\mathbf{a}\)</span> and <span class="arithmatex">\(-\mathbf{a}\)</span>.</p>
+<div class="arithmatex">\[3\mathbf{a} = \begin{pmatrix} -3 \\ 9 \end{pmatrix}, \qquad -\mathbf{a} = \begin{pmatrix} 1 \\ -3 \end{pmatrix}\]</div>
 <h3 id="addition-and-subtraction">Addition and subtraction<a class="headerlink" href="#addition-and-subtraction" title="Permanent link">&para;</a></h3>
 <p>Add or subtract <strong>component by component</strong>:</p>
-<div class="arithmatex">\[\mathbf{a} + \mathbf{b} = (a_1 + b_1,\; a_2 + b_2)\]</div>
-<div class="arithmatex">\[\mathbf{a} - \mathbf{b} = (a_1 - b_1,\; a_2 - b_2)\]</div>
+<div class="arithmatex">\[\mathbf{a} + \mathbf{b} = \begin{pmatrix} a_1 + b_1 \\ a_2 + b_2 \end{pmatrix}\]</div>
+<div class="arithmatex">\[\mathbf{a} - \mathbf{b} = \begin{pmatrix} a_1 - b_1 \\ a_2 - b_2 \end{pmatrix}\]</div>
 <p>Geometrically, place vectors tip-to-tail (or use the parallelogram rule). Note that <span class="arithmatex">\(\mathbf{a} - \mathbf{b} = \mathbf{a} + (-\mathbf{b})\)</span>.</p>
-<p><strong>Worked example:</strong> With <span class="arithmatex">\(\mathbf{a} = (-1, 3)\)</span> and <span class="arithmatex">\(\mathbf{b} = (4, 3)\)</span>:</p>
-<div class="arithmatex">\[\mathbf{a} + \mathbf{b} = (3, 6), \qquad \mathbf{a} - \mathbf{b} = (-5, 0)\]</div>
+<p><strong>Worked example:</strong> With <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}\)</span> and <span class="arithmatex">\(\mathbf{b} = \begin{pmatrix} 4 \\ 3 \end{pmatrix}\)</span>:</p>
+<div class="arithmatex">\[\mathbf{a} + \mathbf{b} = \begin{pmatrix} 3 \\ 6 \end{pmatrix}, \qquad \mathbf{a} - \mathbf{b} = \begin{pmatrix} -5 \\ 0 \end{pmatrix}\]</div>
 <details class="tip">
 <summary>Check your understanding</summary>
 <p>Try <a href="/math_kickstarter/vectors/#exercise-1">Exercise 1</a> and <a href="/math_kickstarter/vectors/#exercise-7">Exercise 7</a> on the topic page.</p>
 </details>
 <h2 id="2-dot-product">2. Dot product<a class="headerlink" href="#2-dot-product" title="Permanent link">&para;</a></h2>
-<p>The <strong>dot product</strong> (also called scalar product) of <span class="arithmatex">\(\mathbf{a} = (a_1, a_2)\)</span> and <span class="arithmatex">\(\mathbf{b} = (b_1, b_2)\)</span> is:</p>
+<p>The <strong>dot product</strong> (also called scalar product) of <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}\)</span> and <span class="arithmatex">\(\mathbf{b} = \begin{pmatrix} b_1 \\ b_2 \end{pmatrix}\)</span> is:</p>
 <div class="arithmatex">\[\mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2\]</div>
 <p>The result is a <strong>scalar</strong>, not a vector.</p>
-<p><strong>Worked example:</strong> For <span class="arithmatex">\(\mathbf{a} = (-3, 4)\)</span> and <span class="arithmatex">\(\mathbf{b} = (1, 2)\)</span>:</p>
+<p><strong>Worked example:</strong> For <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} -3 \\ 4 \end{pmatrix}\)</span> and <span class="arithmatex">\(\mathbf{b} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}\)</span>:</p>
 <div class="arithmatex">\[\mathbf{a} \cdot \mathbf{b} = (-3)(1) + (4)(2) = -3 + 8 = 5\]</div>
 <h3 id="length-of-a-vector">Length of a vector<a class="headerlink" href="#length-of-a-vector" title="Permanent link">&para;</a></h3>
 <div class="arithmatex">\[|\mathbf{a}|^2 = \mathbf{a} \cdot \mathbf{a} = a_1^2 + a_2^2, \qquad |\mathbf{a}| = \sqrt{a_1^2 + a_2^2}\]</div>
 <p>This is the Pythagorean theorem applied to the components.</p>
-<p><strong>Worked example:</strong> For <span class="arithmatex">\(\mathbf{a} = (-3, 4)\)</span>:</p>
+<p><strong>Worked example:</strong> For <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} -3 \\ 4 \end{pmatrix}\)</span>:</p>
 <div class="arithmatex">\[|\mathbf{a}| = \sqrt{(-3)^2 + 4^2} = \sqrt{9 + 16} = 5\]</div>
 <h3 id="angle-between-vectors">Angle between vectors<a class="headerlink" href="#angle-between-vectors" title="Permanent link">&para;</a></h3>
 <div class="arithmatex">\[\mathbf{a} \cdot \mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta\]</div>
 <p>So (when both vectors are nonzero):</p>
 <div class="arithmatex">\[\cos\theta = \frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}\]</div>
-<p><strong>Worked example — perpendicular vectors:</strong> For <span class="arithmatex">\(\mathbf{a} = (6, -2)\)</span> and <span class="arithmatex">\(\mathbf{b} = \left(\dfrac{1}{3}, 1\right)\)</span>:</p>
+<p><strong>Worked example — perpendicular vectors:</strong> For <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} 6 \\ -2 \end{pmatrix}\)</span> and <span class="arithmatex">\(\mathbf{b} = \begin{pmatrix} \dfrac{1}{3} \\ 1 \end{pmatrix}\)</span>:</p>
 <div class="arithmatex">\[\mathbf{a} \cdot \mathbf{b} = 6 \cdot \frac{1}{3} + (-2)(1) = 2 - 2 = 0\]</div>
 <p>So <span class="arithmatex">\(\cos\theta = 0\)</span> and <span class="arithmatex">\(\theta = 90°\)</span>. The vectors are <strong>orthogonal</strong> (perpendicular). We write <span class="arithmatex">\(\mathbf{a} \perp \mathbf{b}\)</span>.</p>
 <h3 id="projection">Projection<a class="headerlink" href="#projection" title="Permanent link">&para;</a></h3>
 <p>The projection of <span class="arithmatex">\(\mathbf{a}\)</span> onto <span class="arithmatex">\(\mathbf{b}\)</span> is the component of <span class="arithmatex">\(\mathbf{a}\)</span> in the direction of <span class="arithmatex">\(\mathbf{b}\)</span>:</p>
 <div class="arithmatex">\[\text{proj}_{\mathbf{b}}(\mathbf{a}) = \frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{b}|^2}\,\mathbf{b}\]</div>
-<p><strong>Worked example:</strong> For <span class="arithmatex">\(\mathbf{a} = (2, 8)\)</span> and <span class="arithmatex">\(\mathbf{b} = (8, 2)\)</span>:</p>
+<p><strong>Worked example:</strong> For <span class="arithmatex">\(\mathbf{a} = \begin{pmatrix} 2 \\ 8 \end{pmatrix}\)</span> and <span class="arithmatex">\(\mathbf{b} = \begin{pmatrix} 8 \\ 2 \end{pmatrix}\)</span>:</p>
 <div class="arithmatex">\[\mathbf{a} \cdot \mathbf{b} = 16 + 16 = 32, \qquad |\mathbf{b}|^2 = 64 + 4 = 68\]</div>
 <div class="arithmatex">\[\text{proj}_{\mathbf{b}}(\mathbf{a}) = \frac{32}{68}\,\mathbf{b} = \frac{8}{17}\,\mathbf{b}\]</div>
 <details class="tip">
@@ -1120,17 +1120,17 @@
 <p>A point <span class="arithmatex">\(P_0\)</span> with position vector <span class="arithmatex">\(\mathbf{r}_0\)</span> and a <strong>direction vector</strong> <span class="arithmatex">\(\mathbf{d}\)</span> determine a line. The parameter <span class="arithmatex">\(t\)</span> controls how far we move along <span class="arithmatex">\(\mathbf{d}\)</span>:</p>
 <div class="arithmatex">\[\mathbf{r} = \mathbf{r}_0 + t\mathbf{d}\]</div>
 <p>As <span class="arithmatex">\(t\)</span> ranges over all real numbers, <span class="arithmatex">\(\mathbf{r}\)</span> traces every point on the line.</p>
-<p>In components, with <span class="arithmatex">\(\mathbf{r}_0 = (x_0, y_0)\)</span> and <span class="arithmatex">\(\mathbf{d} = (d_1, d_2)\)</span>:</p>
+<p>In components, with <span class="arithmatex">\(\mathbf{r}_0 = \begin{pmatrix} x_0 \\ y_0 \end{pmatrix}\)</span> and <span class="arithmatex">\(\mathbf{d} = \begin{pmatrix} d_1 \\ d_2 \end{pmatrix}\)</span>:</p>
 <div class="arithmatex">\[x = x_0 + t d_1, \qquad y = y_0 + t d_2\]</div>
 <p>The same line can be described in many ways (different starting points or direction vectors).</p>
-<p><strong>Worked example:</strong> A line through <span class="arithmatex">\((3, 0)\)</span> with direction <span class="arithmatex">\((3, 2)\)</span>:</p>
-<div class="arithmatex">\[\mathbf{r} = (3, 0) + t(3, 2)\]</div>
+<p><strong>Worked example:</strong> A line through <span class="arithmatex">\(\begin{pmatrix} 3 \\ 0 \end{pmatrix}\)</span> with direction <span class="arithmatex">\(\begin{pmatrix} 3 \\ 2 \end{pmatrix}\)</span>:</p>
+<div class="arithmatex">\[\mathbf{r} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} + t\begin{pmatrix} 3 \\ 2 \end{pmatrix}\]</div>
 <p>When <span class="arithmatex">\(t = 10\)</span>:</p>
-<div class="arithmatex">\[\mathbf{r} = (3 + 30,\; 0 + 20) = (33, 20)\]</div>
-<p><strong>Worked example — parallel line:</strong> Through <span class="arithmatex">\((2, 4)\)</span> with the same direction <span class="arithmatex">\((3, 2)\)</span>:</p>
-<div class="arithmatex">\[\mathbf{r} = (2, 4) + t(3, 2)\]</div>
-<p><strong>Worked example — orthogonal line:</strong> A direction vector orthogonal to <span class="arithmatex">\((3, 2)\)</span> satisfies <span class="arithmatex">\(3d_1 + 2d_2 = 0\)</span>. One choice is <span class="arithmatex">\(\mathbf{d} = (-2, 3)\)</span>. A line through <span class="arithmatex">\((3, 0)\)</span>:</p>
-<div class="arithmatex">\[\mathbf{r} = (3, 0) + t(-2, 3)\]</div>
+<div class="arithmatex">\[\mathbf{r} = \begin{pmatrix} 3 + 30 \\ 0 + 20 \end{pmatrix} = \begin{pmatrix} 33 \\ 20 \end{pmatrix}\]</div>
+<p><strong>Worked example — parallel line:</strong> Through <span class="arithmatex">\(\begin{pmatrix} 2 \\ 4 \end{pmatrix}\)</span> with the same direction <span class="arithmatex">\(\begin{pmatrix} 3 \\ 2 \end{pmatrix}\)</span>:</p>
+<div class="arithmatex">\[\mathbf{r} = \begin{pmatrix} 2 \\ 4 \end{pmatrix} + t\begin{pmatrix} 3 \\ 2 \end{pmatrix}\]</div>
+<p><strong>Worked example — orthogonal line:</strong> A direction vector orthogonal to <span class="arithmatex">\(\begin{pmatrix} 3 \\ 2 \end{pmatrix}\)</span> satisfies <span class="arithmatex">\(3d_1 + 2d_2 = 0\)</span>. One choice is <span class="arithmatex">\(\mathbf{d} = \begin{pmatrix} -2 \\ 3 \end{pmatrix}\)</span>. A line through <span class="arithmatex">\(\begin{pmatrix} 3 \\ 0 \end{pmatrix}\)</span>:</p>
+<div class="arithmatex">\[\mathbf{r} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} + t\begin{pmatrix} -2 \\ 3 \end{pmatrix}\]</div>
 <details class="tip">
 <summary>Check your understanding</summary>
 <p>Try <a href="/math_kickstarter/vectors/#exercise-8">Exercises 8, 9, and 10</a> on the topic page.</p>
