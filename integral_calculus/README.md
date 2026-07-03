@@ -246,11 +246,11 @@ Find the area between the graph of $f(x) = x^2$ and the $x$-axis from $x = 0$ to
 
 #### Exercise 9
 
-Verify that $F(x) = x^3 + 2x$ is an antiderivative of $f(x) = 3x^2 + 2$ by differentiating $F$, then evaluate $\displaystyle\int_0^1 (3x^2 + 2) \, dx$.
+Verify that $F(x) = \dfrac{x^3}{3} + 5x$ is an antiderivative of $f(x) = x^2 + 5$ by differentiating $F$, then evaluate $\displaystyle\int_0^2 (x^2 + 5) \, dx$.
 
 ??? answer "&nbsp;"
 
-    $F'(x) = 3x^2 + 2 = f(x)$, so $F$ is an antiderivative. $\displaystyle\int_0^1 (3x^2 + 2) \, dx = F(1) - F(0) = (1 + 2) - 0 = 3$.
+    $F'(x) = x^2 + 5 = f(x)$, so $F$ is an antiderivative. $\displaystyle\int_0^2 (x^2 + 5) \, dx = F(2) - F(0) = \left(\dfrac{8}{3} + 10\right) - 0 = \dfrac{38}{3}$.
 
 #### Exercise 10
 

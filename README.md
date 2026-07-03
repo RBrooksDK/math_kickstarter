@@ -34,6 +34,8 @@ This site is **not** a replacement for the full mathematics curriculum — it co
 4. Take the quiz at the bottom of the topic page. A score of at least 7 out of 10 suggests sufficient understanding of the material.
 5. Work through the exercises. Use the collapsible answers to check your work.
 
+Get settled with **pen and paper** — complete the exercises without a calculator or maths software. You may use a standard mathematical formula sheet and the [Tutorials](/math_kickstarter/pages/tutorials/) on this site.
+
 You can revisit any topic at any time. Quizzes are for self-assessment only — results are not stored or reported.
 
 If you need several topics, we suggest starting with Basic Arithmetic and Equations and progressing through to Vectors in 2D — see the [Topics overview](/math_kickstarter/Topics/) for details.

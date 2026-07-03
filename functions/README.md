@@ -190,77 +190,75 @@ body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
 
 #### Exercise 1
 
-Find the domain and range of $f(x) = \sqrt{x - 3}$.
+Find the domain and range of $f(x) = \sqrt{x + 4}$.
 
 ??? answer "&nbsp;"
 
-    Domain: $x \ge 3$, i.e. $[3, \infty)$.
+    Domain: $x + 4 \ge 0 \;\Rightarrow\; x \ge -4$, i.e. $[-4, \infty)$.
 
-    Range: $f(x) \ge 0$, i.e. $[0, \infty)$.
+    Range: square roots are non-negative, so $[0, \infty)$.
 
 #### Exercise 2
 
-If $g(x) = x^2 - 2x + 5$, evaluate:
+If $h(x) = x^2 + x - 6$, evaluate:
 
-1. $g(0)$
-2. $g(2)$
-3. $g(-1)$
+1. $h(-3)$
+2. $h(2)$
+3. $h(0)$
 
 ??? answer "&nbsp;"
 
-    1. $g(0) = 5$
-    2. $g(2) = 5$
-    3. $g(-1) = 8$
+    1. $h(-3) = 9 - 3 - 6 = 0$
+    2. $h(2) = 4 + 2 - 6 = 0$
+    3. $h(0) = -6$
 
 #### Exercise 3
 
 Identify each function as **linear**, **power**, or **exponential**:
 
-1. $f(x) = 7 - 3x$
-2. $h(x) = 2x^{0.5}$
-3. $p(x) = 100 \cdot 0.5^x$
+1. $f(x) = 4x + 1$
+2. $g(x) = 5x^{-2}$
+3. $p(x) = 3 \cdot 2^x$
 
 ??? answer "&nbsp;"
 
-    1. Linear ($f(x) = -3x + 7$)
-    2. Power ($h(x) = 2x^{1/2}$)
-    3. Exponential ($p(x) = 100 \cdot 0.5^x$)
+    1. Linear
+    2. Power ($g(x) = 5x^{-2}$)
+    3. Exponential
 
 #### Exercise 4
 
 Rearrange each formula to make the indicated variable the subject:
 
-1. $V = IR$ — solve for $I$
-2. $y = mx + c$ — solve for $x$
-3. $P = \dfrac{E}{t}$ — solve for $t$
+1. $d = vt$ — solve for $t$
+2. $F = kx$ — solve for $x$
+3. $V = \pi r^2 h$ — solve for $h$
 
 ??? answer "&nbsp;"
 
-    1. $I = \dfrac{V}{R}$
-    2. $x = \dfrac{y - c}{m}$
-    3. $t = \dfrac{E}{P}$
+    1. $t = \dfrac{d}{v}$
+    2. $x = \dfrac{F}{k}$
+    3. $h = \dfrac{V}{\pi r^2}$
 
 #### Exercise 5
 
-For $f(x) = 2x + 3$, find $f(4)$ and $f(a + 1)$.
+For $f(x) = 5x - 2$, find $f(3)$ and $f(b + 2)$.
 
 ??? answer "&nbsp;"
 
-    $f(4) = 2(4) + 3 = 11$
+    $f(3) = 5(3) - 2 = 13$
 
-    $f(a + 1) = 2(a + 1) + 3 = 2a + 5$
+    $f(b + 2) = 5(b + 2) - 2 = 5b + 10 - 2 = 5b + 8$
 
 #### Exercise 6
 
-Find the inverse of $f(x) = 4x - 9$. State the domain and range of both $f$ and $f^{-1}$.
+Find the inverse of $f(x) = 5x + 1$. State the domain and range of both $f$ and $f^{-1}$.
 
 ??? answer "&nbsp;"
 
-    Swap $x$ and $y$: $x = 4y - 9$
+    $y = 5x + 1 \;\Rightarrow\; x = 5y + 1 \;\Rightarrow\; y = \dfrac{x - 1}{5}$
 
-    Solve for $y$: $y = \dfrac{x + 9}{4}$
-
-    So $f^{-1}(x) = \dfrac{x + 9}{4}$
+    So $f^{-1}(x) = \dfrac{x - 1}{5}$.
 
     Domain of $f$: all real numbers; range of $f$: all real numbers.
 
@@ -268,48 +266,48 @@ Find the inverse of $f(x) = 4x - 9$. State the domain and range of both $f$ and 
 
 #### Exercise 7
 
-The power dissipated in a circuit is $P = I^2 R$. Rearrange to express $I$ in terms of $P$ and $R$, then evaluate $I$ when $P = 50\,\text{W}$ and $R = 2\,\Omega$.
+Ohm's law is $V = IR$. Rearrange to express $I$ in terms of $V$ and $R$, then find $I$ when $V = 12\,\text{V}$ and $R = 4\,\Omega$.
 
 ??? answer "&nbsp;"
 
-    $I = \sqrt{\dfrac{P}{R}}$
+    $I = \dfrac{V}{R}$
 
-    $I = \sqrt{\dfrac{50}{2}} = \sqrt{25} = 5\,\text{A}$
+    $I = \dfrac{12}{4} = 3\,\text{A}$
 
 #### Exercise 8
 
-For $f(x) = 3^x$ and $g(x) = \log_3(x)$:
+For $f(x) = 2^x$ and $g(x) = \log_2(x)$:
 
-1. Evaluate $f(2)$
-2. Evaluate $g(27)$
+1. Evaluate $f(4)$
+2. Evaluate $g(32)$
 3. Simplify $g(f(x))$
 
 ??? answer "&nbsp;"
 
-    1. $f(2) = 3^2 = 9$
-    2. $g(27) = \log_3(27) = 3$ because $3^3 = 27$
-    3. $g(f(x)) = \log_3(3^x) = x$ (for $x > 0$)
+    1. $f(4) = 2^4 = 16$
+    2. $g(32) = \log_2(32) = 5$ because $2^5 = 32$
+    3. $g(f(x)) = \log_2(2^x) = x$ (for $x > 0$ when using real logarithms)
 
 #### Exercise 9
 
-Sketch (on paper) the graphs of $f(x) = 2x + 1$ and its inverse on the same axes. What line of symmetry do they share?
+For $f(x) = 4x + 1$, find $f^{-1}(x)$ and state the line of symmetry shared by the graphs of $f$ and $f^{-1}$.
 
 ??? answer "&nbsp;"
 
-    $f^{-1}(x) = \dfrac{x - 1}{2}$
+    $f^{-1}(x) = \dfrac{x - 1}{4}$
 
     The graphs are reflections of each other across the line $y = x$.
 
 #### Exercise 10
 
-A population grows according to $N(t) = 500 \cdot 2^t$, where $t$ is time in years.
+A bacteria culture grows according to $N(t) = 200 \cdot 3^t$, where $t$ is time in hours.
 
 1. What is the initial population?
-2. What is the population after 3 years?
+2. What is the population after 2 hours?
 3. Rearrange the formula to express $t$ in terms of $N$ (use logarithms).
 
 ??? answer "&nbsp;"
 
-    1. Initial population: $N(0) = 500 \cdot 2^0 = 500$
-    2. After 3 years: $N(3) = 500 \cdot 2^3 = 500 \cdot 8 = 4000$
-    3. $\dfrac{N}{500} = 2^t$, so $t = \log_2\!\left(\dfrac{N}{500}\right)$
+    1. $N(0) = 200 \cdot 3^0 = 200$
+    2. $N(2) = 200 \cdot 3^2 = 200 \cdot 9 = 1800$
+    3. $\dfrac{N}{200} = 3^t$, so $t = \log_3\!\left(\dfrac{N}{200}\right)$

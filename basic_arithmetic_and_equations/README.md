@@ -248,128 +248,129 @@ body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
 
 Evaluate:
 
-1. $(6 - 2 \times 5)^2$
-2. $\dfrac{3 + 2 \times 6}{5}$
-3. $24 \div 4 \times 3$
+1. $8 + 12 \div 3^2$
+2. $\dfrac{15 - 3 \times 4}{6}$
+3. $48 \div 6 \div 2$
 
 ??? answer "&nbsp;"
 
-    1. $(6 - 10)^2 = (-4)^2 = 16$
-    2. $\dfrac{3 + 12}{5} = 3$
-    3. $6 \times 3 = 18$ (left to right)
+    1. $8 + \dfrac{12}{9} = 8 + \dfrac{4}{3} = \dfrac{28}{3}$
+    2. $\dfrac{15 - 12}{6} = \dfrac{3}{6} = \dfrac{1}{2}$
+    3. $48 \div 6 = 8$, then $8 \div 2 = 4$ (left to right)
 
 #### Exercise 2
 
 Simplify:
 
-1. $\dfrac{5}{6} - \dfrac{1}{4}$
-2. $\dfrac{2}{3} \div \dfrac{5}{9}$
-3. $\dfrac{3}{4} \times \dfrac{8}{15} + \dfrac{1}{2}$
+1. $\dfrac{7}{8} - \dfrac{1}{3}$
+2. $\dfrac{5}{12} \div \dfrac{2}{9}$
+3. $\dfrac{2}{5} \times \dfrac{15}{8} - \dfrac{1}{4}$
 
 ??? answer "&nbsp;"
 
-    1. $\dfrac{10}{12} - \dfrac{3}{12} = \dfrac{7}{12}$
-    2. $\dfrac{2}{3} \times \dfrac{9}{5} = \dfrac{6}{5}$
-    3. $\dfrac{24}{60} + \dfrac{1}{2} = \dfrac{2}{5} + \dfrac{1}{2} = \dfrac{9}{10}$
+    1. $\dfrac{21}{24} - \dfrac{8}{24} = \dfrac{13}{24}$
+    2. $\dfrac{5}{12} \times \dfrac{9}{2} = \dfrac{45}{24} = \dfrac{15}{8}$
+    3. $\dfrac{30}{40} - \dfrac{1}{4} = \dfrac{3}{4} - \dfrac{1}{4} = \dfrac{1}{2}$
 
 #### Exercise 3
 
 Simplify:
 
-1. $\dfrac{2^4 \times 2^{-2}}{2^3}$
-2. $27^{\frac{1}{3}}$
-3. $\dfrac{x^3 \cdot x^{-5}}{x^{-2}}$
+1. $\dfrac{3^5 \cdot 3^{-2}}{3^4}$
+2. $8^{\frac{2}{3}}$
+3. $\dfrac{a^4 \cdot a^{-7}}{a^{-5}}$
 
 ??? answer "&nbsp;"
 
-    1. $\dfrac{2^2}{2^3} = \dfrac{1}{2}$
-    2. $3$
-    3. $\dfrac{x^{-2}}{x^{-2}} = 1$
+    1. $3^{5-2-4} = 3^{-1} = \dfrac{1}{3}$
+    2. $8^{\frac{2}{3}} = \left(\sqrt[3]{8}\right)^2 = 2^2 = 4$
+    3. $\dfrac{a^{-3}}{a^{-5}} = a^{2}$
 
 #### Exercise 4
 
 Expand and simplify:
 
-1. $2r - (3 - r)$
-2. $3x + 2(x - 7)$
-3. $(2 + 3x)^2$
+1. $4t - (5 - 2t)$
+2. $2(x + 3) - 3(x - 1)$
+3. $(1 - 4x)^2$
 
 ??? answer "&nbsp;"
 
-    1. $3r - 3$
-    2. $5x - 14$
-    3. $4 + 12x + 9x^2 = 9x^2 + 12x + 4$
+    1. $4t - 5 + 2t = 6t - 5$
+    2. $2x + 6 - 3x + 3 = -x + 9$
+    3. $1 - 8x + 16x^2 = 16x^2 - 8x + 1$
 
 #### Exercise 5
 
-Solve for $x$:
+Solve for the variable:
 
-1. $4x - 2 = 18 - x$
-2. $\dfrac{2z + 3}{2} = z + 4$
+1. $7x + 4 = 22 - x$
+2. $\dfrac{3y - 1}{4} = y + 2$
 
 ??? answer "&nbsp;"
 
-    1. $5x = 20 \Rightarrow x = 4$
-    2. $2z + 3 = 2z + 8$, which simplifies to $3 = 8$, so there is **no solution**
+    1. $8x = 18 \Rightarrow x = \dfrac{9}{4}$
+    2. $3y - 1 = 4y + 8 \Rightarrow -y = 9 \Rightarrow y = -9$
 
 #### Exercise 6
 
-Solve the following quadratic equations:
+Solve using the quadratic formula (show $a$, $b$, $c$, and $\Delta$):
 
-1. $2x^2 - 4x - 6 = 0$
-2. $4x(x + 1) + 3 = 2$
+1. $x^2 - 5x + 6 = 0$
+2. $3x(x - 2) - 5 = x$
 
 ??? answer "&nbsp;"
 
-    1. $x^2 - 2x - 3 = 0 \Rightarrow (x - 3)(x + 1) = 0$, so $x = 3$ or $x = -1$
-    2. $4x^2 + 4x + 1 = 0 \Rightarrow (2x + 1)^2 = 0$, so $x = -\dfrac{1}{2}$ (one repeated root)
+    1. $a = 1$, $b = -5$, $c = 6$, $\Delta = 1$. So $x = \dfrac{5 \pm 1}{2}$, giving $x = 3$ or $x = 2$.
+
+    2. Standard form: $3x^2 - 7x - 5 = 0$, so $a = 3$, $b = -7$, $c = -5$, $\Delta = 109$. So $x = \dfrac{7 \pm \sqrt{109}}{6}$.
 
 #### Exercise 7
 
 For each equation, find the discriminant and state the number of real solutions:
 
-1. $x^2 + 6x + 9 = 0$
-2. $3x^2 - 2x + 5 = 0$
+1. $2x^2 + x - 3 = 0$
+2. $x^2 + 4x + 7 = 0$
 
 ??? answer "&nbsp;"
 
-    1. $\Delta = 36 - 36 = 0$, so one real solution
-    2. $\Delta = 4 - 60 = -56 < 0$, so no real solutions
+    1. $\Delta = 1 + 24 = 25 > 0$, so two distinct real solutions
+    2. $\Delta = 16 - 28 = -12 < 0$, so no real solutions
 
 #### Exercise 8
 
 Rearrange each formula to make the requested variable the subject:
 
-1. $V = \dfrac{4}{3}\pi r^3$ for $r$
-2. $A = P(1 + r)^t$ for $r$
+1. $E = mc^2$ for $c$
+2. $T = 2\pi\sqrt{\dfrac{L}{g}}$ for $L$
 
 ??? answer "&nbsp;"
 
-    1. $r = \sqrt[3]{\dfrac{3V}{4\pi}}$
-    2. $\dfrac{A}{P} = (1 + r)^t$, so $1 + r = \left(\dfrac{A}{P}\right)^{1/t}$ and $r = \left(\dfrac{A}{P}\right)^{1/t} - 1$
+    1. $c^2 = \dfrac{E}{m}$, so $c = \sqrt{\dfrac{E}{m}}$ (taking the non-negative root)
+    2. $\dfrac{T^2}{4\pi^2} = \dfrac{L}{g}$, so $L = \dfrac{gT^2}{4\pi^2}$
 
 #### Exercise 9
 
 Evaluate:
 
-$$\left(\dfrac{2}{3} + \dfrac{1}{6}\right)^{-2} + \sqrt{\dfrac{25}{16}}$$
+$$\left(\dfrac{3}{4} - \dfrac{1}{8}\right)^{2} + \sqrt{\dfrac{9}{16}}$$
 
 ??? answer "&nbsp;"
 
-    $\left(\dfrac{5}{6}\right)^{-2} + \dfrac{5}{4} = \dfrac{36}{25} + \dfrac{5}{4} = \dfrac{144 + 125}{100} = \dfrac{269}{100}$
+    $\left(\dfrac{5}{8}\right)^{2} + \dfrac{3}{4} = \dfrac{25}{64} + \dfrac{48}{64} = \dfrac{73}{64}$
 
 #### Exercise 10
 
 Solve for $x$:
 
-$$\dfrac{3(x - 2)}{4} - \dfrac{2(x + 1)}{3} = 1$$
+$$\dfrac{2(x + 3)}{5} + \dfrac{x - 1}{2} = 4$$
 
 Show your working and verify the solution.
 
 ??? answer "&nbsp;"
 
-    Multiply through by 12: $9(x - 2) - 8(x + 1) = 12$
+    Multiply through by 10: $4(x + 3) + 5(x - 1) = 40$
 
-    $9x - 18 - 8x - 8 = 12 \Rightarrow x = 38$
+    $4x + 12 + 5x - 5 = 40 \Rightarrow 9x = 33 \Rightarrow x = \dfrac{11}{3}$
 
-    Check: $\dfrac{3(36)}{4} - \dfrac{2(39)}{3} = 27 - 26 = 1$ ✓
+    Check: $\dfrac{8}{3} + \dfrac{4}{3} = 4$ ✓

@@ -146,5 +146,11 @@ nav:
     - Differential Calculus: differential_calculus/README.md
     - Integral Calculus: integral_calculus/README.md
     - Vectors in 2D: vectors/README.md
-  - Tutorials: pages/tutorials.md
+  - Tutorials:
+    - pages/tutorials/README.md
+    - Basic Arithmetic and Equations: pages/tutorials/basic_arithmetic_and_equations.md
+    - Functions: pages/tutorials/functions.md
+    - Differential Calculus: pages/tutorials/differential_calculus.md
+    - Integral Calculus: pages/tutorials/integral_calculus.md
+    - Vectors in 2D: pages/tutorials/vectors.md
   - FAQ: pages/faq.md

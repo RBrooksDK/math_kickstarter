@@ -1,16 +1,8 @@
-<h1 align="center">Tutorials</h1>
+<h1 align="center">Basic Arithmetic and Equations</h1>
 
-Step-by-step tutorials organised by topic. Use the table of contents to jump to a section, or scroll through the five main course areas below.
+Work through these tutorials after watching the [Basic Arithmetic and Equations](/math_kickstarter/basic_arithmetic_and_equations/) videos. Each subsection walks through the main ideas step by step with worked examples. The **exercises** on the topic page use different problems — they are not copies of the tutorial or video examples.
 
-Each **section** matches one of the main topics on the site. **Subsections** correspond to specific skills or video themes — not every subsection will have tutorial material at launch. Return to the [topic pages](/math_kickstarter/Topics/) for videos, quizzes, and exercises.
-
-<hr>
-
-## Basic Arithmetic and Equations
-
-Work through these tutorials after watching the [Basic Arithmetic and Equations](/math_kickstarter/basic_arithmetic_and_equations/) videos. Each subsection walks through the main ideas step by step, with worked examples similar to the quiz and exercises on that topic page.
-
-### 1. Order of operations
+## 1. Order of operations
 
 When an expression contains several operations, use a fixed **priority order** (often remembered as PEMDAS):
 
@@ -45,7 +37,7 @@ Multiplication and division have equal priority, so work **left to right**: $24 
 ??? tip "Check your understanding"
     Try [Exercise 1](/math_kickstarter/basic_arithmetic_and_equations/#exercise-1) on the topic page.
 
-### 2. Fractions
+## 2. Fractions
 
 A fraction $\dfrac{a}{b}$ has **numerator** $a$ (top) and **denominator** $b$ (bottom). The denominator tells you into how many equal parts a whole is divided.
 
@@ -78,7 +70,7 @@ $$\dfrac{2}{3} \cdot \dfrac{9}{5} = \dfrac{18}{15} = \dfrac{6}{5}$$
 ??? tip "Check your understanding"
     Try [Exercises 2 and 9](/math_kickstarter/basic_arithmetic_and_equations/#exercise-2) on the topic page.
 
-### 3. Exponents and radicals
+## 3. Exponents and radicals
 
 **Powers:** $a^n$ means $a$ multiplied by itself $n$ times ($n > 0$).
 
@@ -93,6 +85,9 @@ $$\dfrac{2}{3} \cdot \dfrac{9}{5} = \dfrac{18}{15} = \dfrac{6}{5}$$
 | Power of a quotient | $\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$ |
 | Negative exponent | $a^{-n} = \dfrac{1}{a^n}$ |
 | Zero exponent | $a^0 = 1$ |
+| Roots and rational exponents | $\sqrt[m]{a^n} = a^{n/m}$ |
+
+In particular, $\sqrt[n]{a} = a^{1/n}$ and $\sqrt[n]{a^m} = a^{m/n}$ (for $a \geq 0$ when $n$ is even, and where the expressions are defined).
 
 **Square roots:** if $y^2 = x$, then $y = \pm\sqrt{x}$. The symbol $\sqrt{x}$ usually denotes the **non-negative** square root.
 
@@ -105,14 +100,20 @@ $$\dfrac{2}{3} \cdot \dfrac{9}{5} = \dfrac{18}{15} = \dfrac{6}{5}$$
 
 $$\dfrac{x^{-2}}{x^{-2}} = x^0 = 1$$
 
-**Worked example:** Evaluate $27^{\frac{1}{3}}$.
+**Worked example:** Evaluate $27^{\frac{1}{3}}$ using the root rule.
 
-This is the cube root of 27, so the answer is $3$.
+Using $a^{n/m} = \sqrt[m]{a^n}$ with $n = 1$ and $m = 3$:
+
+$$27^{\frac{1}{3}} = \sqrt[3]{27} = 3$$
+
+**Worked example:** Write $\sqrt[4]{16^3}$ as a single power.
+
+$$\sqrt[4]{16^3} = 16^{3/4}$$
 
 ??? tip "Check your understanding"
     Try [Exercise 3](/math_kickstarter/basic_arithmetic_and_equations/#exercise-3) on the topic page.
 
-### 4. Parentheses
+## 4. Parentheses
 
 **Distributive law** — multiply each term inside the bracket:
 
@@ -145,7 +146,7 @@ $$(2 + 3x)^2 = 4 + 12x + 9x^2 = 9x^2 + 12x + 4$$
 ??? tip "Check your understanding"
     Try [Exercise 4](/math_kickstarter/basic_arithmetic_and_equations/#exercise-4) on the topic page.
 
-### 5. Equations
+## 5. Equations
 
 The **equals sign** means the left-hand side and the right-hand side have the **same value**. It is not a signal to “write the answer next” — it states a balance.
 
@@ -179,13 +180,13 @@ Substituting back confirms the solution.
 ??? tip "Check your understanding"
     Try [Exercises 5 and 10](/math_kickstarter/basic_arithmetic_and_equations/#exercise-5) on the topic page.
 
-### 6. Quadratic equations
+## 6. Quadratic equations
 
 A **quadratic equation** in **standard form** is
 
 $$ax^2 + bx + c = 0 \quad (a \neq 0)$$
 
-Before using the quadratic formula, **expand and simplify** until the equation is in this form.
+Before using the quadratic formula, **expand and simplify** until the equation is in this form. In this course, use the **quadratic formula** as the standard method once the equation is in standard form (factoring is not required here).
 
 **Quadratic formula:**
 
@@ -199,24 +200,33 @@ The **discriminant** is $\Delta = b^2 - 4ac$:
 | $\Delta = 0$ | One repeated real solution |
 | $\Delta < 0$ | No real solutions |
 
-**Worked example:** Solve $2x^2 - 4x - 6 = 0$.
+**Worked example:** Solve $2x^2 - 4x - 6 = 0$ using the quadratic formula.
 
-1. Divide by 2: $x^2 - 2x - 3 = 0$
-2. Factor: $(x - 3)(x + 1) = 0$
-3. Solutions: $x = 3$ or $x = -1$
+1. Identify coefficients: $a = 2$, $b = -4$, $c = -6$
+2. Discriminant: $\Delta = (-4)^2 - 4(2)(-6) = 16 + 48 = 64$
+3. Apply the formula:
+   $x = \frac{-(-4) \pm \sqrt{64}}{2(2)} = \frac{4 \pm 8}{4}$
+4. Two solutions: $x = \dfrac{12}{4} = 3$ or $x = \dfrac{-4}{4} = -1$
 
-**Worked example:** Solve $4x(x + 1) + 3 = 2$.
+**Worked example:** Solve $4x(x + 1) + 3 = 2$ using the quadratic formula.
 
-1. Expand: $4x^2 + 4x + 3 = 2$
-2. Standard form: $4x^2 + 4x + 1 = 0$
-3. Factor: $(2x + 1)^2 = 0$, so $x = -\dfrac{1}{2}$ (one repeated root)
+1. Expand and write in standard form: $4x^2 + 4x + 1 = 0$, so $a = 4$, $b = 4$, $c = 1$
+2. Discriminant: $\Delta = 4^2 - 4(4)(1) = 16 - 16 = 0$
+3. Apply the formula:
+   $x = \frac{-4 \pm \sqrt{0}}{2(4)} = \frac{-4}{8} = -\dfrac{1}{2}$
+4. One repeated solution: $x = -\dfrac{1}{2}$
 
-**Worked example:** For $x^2 + 6x + 9 = 0$, the discriminant is $36 - 36 = 0$, so there is **one** real solution. For $3x^2 - 2x + 5 = 0$, $\Delta = 4 - 60 = -56$, so there are **no** real solutions.
+**Worked example:** Use the discriminant and quadratic formula for $x^2 + 6x + 9 = 0$.
+
+1. Here $a = 1$, $b = 6$, $c = 9$, so $\Delta = 36 - 36 = 0$ (one real solution)
+2. $$x = \frac{-6 \pm \sqrt{0}}{2} = \frac{-6}{2} = -3$$
+
+**Worked example:** For $3x^2 - 2x + 5 = 0$, $\Delta = (-2)^2 - 4(3)(5) = 4 - 60 = -56 < 0$, so the quadratic formula gives no **real** solutions ($\sqrt{-56}$ is not a real number).
 
 ??? tip "Check your understanding"
     Try [Exercises 6 and 7](/math_kickstarter/basic_arithmetic_and_equations/#exercise-6) on the topic page.
 
-### 7. Rearranging formulae
+## 7. Rearranging formulae
 
 To make a variable the **subject** of a formula, treat the formula like an equation and **undo operations in reverse order** (inverse operations).
 
@@ -242,59 +252,3 @@ To make a variable the **subject** of a formula, treat the formula like an equat
 
 ??? tip "Check your understanding"
     Try [Exercise 8](/math_kickstarter/basic_arithmetic_and_equations/#exercise-8) on the topic page.
-
-<hr>
-
-## Functions
-
-### 1. Functions and graphs
-
-*(Tutorial content to be added.)*
-
-### 2. Common function types
-
-*(Tutorial content to be added.)*
-
-### 3. Inverse functions
-
-*(Tutorial content to be added.)*
-
-<hr>
-
-## Differential Calculus
-
-### 1. Derivatives and tangents
-
-*(Tutorial content to be added.)*
-
-### 2. Differentiation rules
-
-*(Tutorial content to be added.)*
-
-<hr>
-
-## Integral Calculus
-
-### 1. Indefinite integrals and antiderivatives
-
-*(Tutorial content to be added.)*
-
-### 2. Definite integrals and areas
-
-*(Tutorial content to be added.)*
-
-<hr>
-
-## Vectors in 2D
-
-### 1. Vectors in 2D
-
-*(Tutorial content to be added.)*
-
-### 2. Dot product
-
-*(Tutorial content to be added.)*
-
-### 3. Parametric equation of a line *(optional)*
-
-*(Tutorial content to be added.)*
