@@ -183,6 +183,8 @@ content:
 
 ## Exercises
 
+For step-by-step worked examples and formulas for this topic, see the [Vectors in 2D tutorial](/math_kickstarter/pages/tutorials/vectors/).
+
 <style>
 body[data-md-color-scheme] .md-content ol       { list-style-type: lower-alpha; }
 body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
