@@ -702,6 +702,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="1. Indefinite integrals and antiderivatives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rules-for-indefinite-integrals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rules for indefinite integrals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-antiderivatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common antiderivatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -712,6 +740,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="2. Definite integrals and areas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fundamental-theorem-of-calculus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fundamental Theorem of Calculus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -819,6 +864,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="1. Indefinite integrals and antiderivatives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rules-for-indefinite-integrals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rules for indefinite integrals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-antiderivatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common antiderivatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -829,6 +902,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="2. Definite integrals and areas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fundamental-theorem-of-calculus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fundamental Theorem of Calculus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -854,13 +944,131 @@
 
 <h1 align="center">Integral Calculus</h1>
 
-<p>Tutorials for antiderivatives and definite integrals.</p>
-<hr>
-
+<p>Work through these tutorials after watching the <a href="/math_kickstarter/integral_calculus/">Integral Calculus</a> videos. Each subsection walks through the main ideas step by step with worked examples. The <strong>exercises</strong> on the topic page use different problems — they are not copies of the tutorial or video examples.</p>
 <h2 id="1-indefinite-integrals-and-antiderivatives">1. Indefinite integrals and antiderivatives<a class="headerlink" href="#1-indefinite-integrals-and-antiderivatives" title="Permanent link">&para;</a></h2>
-<p><em>(Tutorial content to be added.)</em></p>
+<p>Differentiation finds the <strong>rate of change</strong> <span class="arithmatex">\(f(x) = F'(x)\)</span>. Integration reverses this process.</p>
+<p>If <span class="arithmatex">\(F'(x) = f(x)\)</span>, then <span class="arithmatex">\(F\)</span> is an <strong>antiderivative</strong> of <span class="arithmatex">\(f\)</span>. We often use a <strong>capital letter</strong> for antiderivatives.</p>
+<p><strong>Example:</strong> For <span class="arithmatex">\(f(x) = 2x\)</span>, one antiderivative is <span class="arithmatex">\(F(x) = x^2\)</span>, because <span class="arithmatex">\(\dfrac{d}{dx}(x^2) = 2x\)</span>.</p>
+<p>Adding any constant also works: <span class="arithmatex">\(x^2 + 73\)</span> is still an antiderivative of <span class="arithmatex">\(2x\)</span>, since the derivative of a constant is <span class="arithmatex">\(0\)</span>.</p>
+<p>The <strong>indefinite integral</strong> collects all antiderivatives:</p>
+<div class="arithmatex">\[\int f(x)\, dx = F(x) + C\]</div>
+<p>Always include <strong><span class="arithmatex">\(dx\)</span></strong> (the variable of integration) and <strong><span class="arithmatex">\(+C\)</span></strong> (the arbitrary constant).</p>
+<h3 id="rules-for-indefinite-integrals">Rules for indefinite integrals<a class="headerlink" href="#rules-for-indefinite-integrals" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sum</td>
+<td><span class="arithmatex">\(\int (f + g)\, dx = \int f\, dx + \int g\, dx\)</span></td>
+</tr>
+<tr>
+<td>Difference</td>
+<td><span class="arithmatex">\(\int (f - g)\, dx = \int f\, dx - \int g\, dx\)</span></td>
+</tr>
+<tr>
+<td>Constant multiple</td>
+<td><span class="arithmatex">\(\int c \cdot f\, dx = c \int f\, dx\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Integrate <strong>term by term</strong>. This topic does <strong>not</strong> cover substitution or partial fractions.</p>
+<h3 id="common-antiderivatives">Common antiderivatives<a class="headerlink" href="#common-antiderivatives" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Function <span class="arithmatex">\(f(x)\)</span></th>
+<th>Antiderivative <span class="arithmatex">\(\int f(x)\, dx\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(c\)</span> (constant)</td>
+<td><span class="arithmatex">\(cx + C\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(x^n\)</span> (<span class="arithmatex">\(n \ne -1\)</span>)</td>
+<td><span class="arithmatex">\(\dfrac{x^{n+1}}{n+1} + C\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(e^x\)</span></td>
+<td><span class="arithmatex">\(e^x + C\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\dfrac{1}{x}\)</span></td>
+<td><span class="arithmatex">\(\ln\lvert x\rvert + C\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\sin x\)</span></td>
+<td><span class="arithmatex">\(-\cos x + C\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\cos x\)</span></td>
+<td><span class="arithmatex">\(\sin x + C\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Power rule for integration:</strong> add 1 to the exponent, then divide by the new exponent.</p>
+<p><strong>Worked example:</strong> Evaluate <span class="arithmatex">\(\int (x^3 + x^2)\, dx\)</span>.</p>
+<div class="arithmatex">\[\int x^3\, dx + \int x^2\, dx = \frac{x^4}{4} + \frac{x^3}{3} + C\]</div>
+<p><strong>Worked example:</strong> Evaluate <span class="arithmatex">\(\int \left(\dfrac{1}{x^2} + 3x - \sin x\right) dx\)</span>.</p>
+<p>Rewrite <span class="arithmatex">\(\dfrac{1}{x^2} = x^{-2}\)</span>:</p>
+<div class="arithmatex">\[\int x^{-2}\, dx + 3\int x\, dx - \int \sin x\, dx = -\frac{1}{x} + \frac{3x^2}{2} + \cos x + C\]</div>
+<p><strong>Worked example:</strong> Evaluate <span class="arithmatex">\(\int (2x^3 - 7)\, dx\)</span> and check by differentiating.</p>
+<div class="arithmatex">\[\int 2x^3\, dx - \int 7\, dx = \frac{1}{2}x^4 - 7x + C\]</div>
+<p>Check: <span class="arithmatex">\(\dfrac{d}{dx}\left(\dfrac{1}{2}x^4 - 7x + C\right) = 2x^3 - 7\)</span> ✓</p>
+<details class="tip">
+<summary>Check your understanding</summary>
+<p>Try <a href="/math_kickstarter/integral_calculus/#exercise-1">Exercises 1, 2, 3, and 4</a> on the topic page.</p>
+</details>
 <h2 id="2-definite-integrals-and-areas">2. Definite integrals and areas<a class="headerlink" href="#2-definite-integrals-and-areas" title="Permanent link">&para;</a></h2>
-<p><em>(Tutorial content to be added.)</em></p>
+<p>A <strong>definite integral</strong> from <span class="arithmatex">\(a\)</span> to <span class="arithmatex">\(b\)</span> gives the <strong>signed area</strong> between the graph of <span class="arithmatex">\(f\)</span> and the <span class="arithmatex">\(x\)</span>-axis on <span class="arithmatex">\([a, b]\)</span>:</p>
+<ul>
+<li>Area <strong>above</strong> the axis counts as <strong>positive</strong></li>
+<li>Area <strong>below</strong> the axis counts as <strong>negative</strong></li>
+</ul>
+<h3 id="fundamental-theorem-of-calculus">Fundamental Theorem of Calculus<a class="headerlink" href="#fundamental-theorem-of-calculus" title="Permanent link">&para;</a></h3>
+<p>If <span class="arithmatex">\(F'(x) = f(x)\)</span>, then</p>
+<div class="arithmatex">\[\int_a^b f(x)\, dx = F(b) - F(a)\]</div>
+<p>Any antiderivative works — the constant <span class="arithmatex">\(C\)</span> cancels in the difference. Usually choose <span class="arithmatex">\(C = 0\)</span>.</p>
+<p><strong>Notation:</strong> <span class="arithmatex">\(\displaystyle\left[F(x)\right]_a^b = F(b) - F(a)\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Indefinite integral <span class="arithmatex">\(\int f(x)\, dx\)</span></td>
+<td>A <strong>family of functions</strong> (<span class="arithmatex">\(+ C\)</span>)</td>
+</tr>
+<tr>
+<td>Definite integral <span class="arithmatex">\(\int_a^b f(x)\, dx\)</span></td>
+<td>A <strong>number</strong> (signed area)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Worked example — area under a line:</strong> Find <span class="arithmatex">\(\displaystyle\int_0^5 (x - 2)\, dx\)</span>.</p>
+<p>An antiderivative is <span class="arithmatex">\(F(x) = \dfrac{x^2}{2} - 2x\)</span>:</p>
+<div class="arithmatex">\[\left[\frac{x^2}{2} - 2x\right]_0^5 = \left(\frac{25}{2} - 10\right) - 0 = 2.5\]</div>
+<p>The graph crosses the <span class="arithmatex">\(x\)</span>-axis at <span class="arithmatex">\(x = 2\)</span>; regions above and below the axis combine to give signed area <span class="arithmatex">\(2.5\)</span>.</p>
+<p><strong>Worked example — signed area:</strong> Evaluate <span class="arithmatex">\(\displaystyle\int_{-1}^1 (6x^2 - 4)\, dx\)</span>.</p>
+<div class="arithmatex">\[F(x) = 2x^3 - 4x\]</div>
+<div class="arithmatex">\[F(1) - F(-1) = (2 - 4) - (-2 + 4) = -2 - 2 = -4\]</div>
+<p>The negative result reflects more area below the axis than above on <span class="arithmatex">\([-1, 1]\)</span>.</p>
+<p><strong>Worked example:</strong> Evaluate <span class="arithmatex">\(\displaystyle\int_0^{\pi} \sin x\, dx\)</span>.</p>
+<p>An antiderivative is <span class="arithmatex">\(-\cos x\)</span>:</p>
+<div class="arithmatex">\[\left[-\cos x\right]_0^{\pi} = (-\cos\pi) - (-\cos 0) = -(-1) - (-1) = 1 + 1 = 2\]</div>
+<details class="tip">
+<summary>Check your understanding</summary>
+<p>Try <a href="/math_kickstarter/integral_calculus/#exercise-5">Exercises 5, 6, 7, 8, and 10</a> on the topic page.</p>
+</details>
 
 
 

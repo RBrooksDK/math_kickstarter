@@ -674,6 +674,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="1. Derivatives and tangents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#from-secant-to-derivative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From secant to derivative
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-the-derivative-tells-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the derivative tells you
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -684,6 +723,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="2. Differentiation rules">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-derivatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common derivatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -819,6 +886,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="1. Derivatives and tangents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#from-secant-to-derivative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From secant to derivative
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-the-derivative-tells-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the derivative tells you
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -829,6 +935,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="2. Differentiation rules">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-derivatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common derivatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -854,13 +988,129 @@
 
 <h1 align="center">Differential Calculus</h1>
 
-<p>Tutorials for derivatives and basic differentiation rules.</p>
-<hr>
-
+<p>Work through these tutorials after watching the <a href="/math_kickstarter/differential_calculus/">Differential Calculus</a> videos. Each subsection walks through the main ideas step by step with worked examples. The <strong>exercises</strong> on the topic page use different problems — they are not copies of the tutorial or video examples.</p>
 <h2 id="1-derivatives-and-tangents">1. Derivatives and tangents<a class="headerlink" href="#1-derivatives-and-tangents" title="Permanent link">&para;</a></h2>
-<p><em>(Tutorial content to be added.)</em></p>
+<p>A function can be <strong>increasing</strong> (as <span class="arithmatex">\(x\)</span> increases, <span class="arithmatex">\(y\)</span> increases) or <strong>decreasing</strong> (as <span class="arithmatex">\(x\)</span> increases, <span class="arithmatex">\(y\)</span> decreases). Often the <strong>rate of change</strong> itself changes along the graph.</p>
+<p>The <strong>tangent line</strong> at a point on a graph is the straight line that touches the curve and matches its slope at that point. Because a tangent is a line <span class="arithmatex">\(y = ax + b\)</span>, its <strong>slope</strong> <span class="arithmatex">\(a\)</span> gives a number for the instantaneous rate of change.</p>
+<h3 id="from-secant-to-derivative">From secant to derivative<a class="headerlink" href="#from-secant-to-derivative" title="Permanent link">&para;</a></h3>
+<p>Pick a point <span class="arithmatex">\((x_0, f(x_0))\)</span> and a nearby point. The line through them is a <strong>secant</strong>. Its slope is</p>
+<div class="arithmatex">\[\frac{\Delta y}{\Delta x}\]</div>
+<p>As the second point moves closer ( <span class="arithmatex">\(\Delta x \to 0\)</span> ), the secant approaches the tangent. The <strong>derivative</strong> is this limiting slope:</p>
+<div class="arithmatex">\[f'(x) = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x}\]</div>
+<p>In practice we use differentiation <strong>rules</strong> rather than evaluating the limit each time.</p>
+<h3 id="notation">Notation<a class="headerlink" href="#notation" title="Permanent link">&para;</a></h3>
+<p>The derivative of <span class="arithmatex">\(f(x)\)</span> can be written as:</p>
+<ul>
+<li><span class="arithmatex">\(f'(x)\)</span></li>
+<li><span class="arithmatex">\(\dfrac{df}{dx}\)</span> or <span class="arithmatex">\(\dfrac{d}{dx}f(x)\)</span></li>
+</ul>
+<h3 id="what-the-derivative-tells-you">What the derivative tells you<a class="headerlink" href="#what-the-derivative-tells-you" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Sign of <span class="arithmatex">\(f'(x)\)</span></th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(f'(x) &gt; 0\)</span></td>
+<td><span class="arithmatex">\(f\)</span> is <strong>increasing</strong> at <span class="arithmatex">\(x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(f'(x) &lt; 0\)</span></td>
+<td><span class="arithmatex">\(f\)</span> is <strong>decreasing</strong> at <span class="arithmatex">\(x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(f'(x) = 0\)</span></td>
+<td>horizontal tangent — possible <strong>local maximum</strong> or <strong>local minimum</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Summary:</strong> <span class="arithmatex">\(f'(x)\)</span> is the slope of the tangent at <span class="arithmatex">\(x\)</span>, and it measures the rate of change of <span class="arithmatex">\(f\)</span> at that point.</p>
+<details class="tip">
+<summary>Check your understanding</summary>
+<p>Try <a href="/math_kickstarter/differential_calculus/#exercise-7">Exercises 7 and 8</a> on the topic page.</p>
+</details>
 <h2 id="2-differentiation-rules">2. Differentiation rules<a class="headerlink" href="#2-differentiation-rules" title="Permanent link">&para;</a></h2>
-<p><em>(Tutorial content to be added.)</em></p>
+<p>This topic covers <strong>basic</strong> rules only. The product rule, quotient rule, and chain rule are <strong>not</strong> included here.</p>
+<h3 id="simple-rules">Simple rules<a class="headerlink" href="#simple-rules" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sum</td>
+<td><span class="arithmatex">\((f + g)' = f' + g'\)</span></td>
+</tr>
+<tr>
+<td>Difference</td>
+<td><span class="arithmatex">\((f - g)' = f' - g'\)</span></td>
+</tr>
+<tr>
+<td>Constant multiple</td>
+<td><span class="arithmatex">\((c \cdot f)' = c \cdot f'\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Differentiate <strong>term by term</strong>. Constants differentiate to <span class="arithmatex">\(0\)</span>.</p>
+<h3 id="common-derivatives">Common derivatives<a class="headerlink" href="#common-derivatives" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Function <span class="arithmatex">\(f(x)\)</span></th>
+<th>Derivative <span class="arithmatex">\(f'(x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(c\)</span> (constant)</td>
+<td><span class="arithmatex">\(0\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(x^n\)</span></td>
+<td><span class="arithmatex">\(nx^{n-1}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(e^x\)</span></td>
+<td><span class="arithmatex">\(e^x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\ln x\)</span></td>
+<td><span class="arithmatex">\(\dfrac{1}{x}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\sin x\)</span></td>
+<td><span class="arithmatex">\(\cos x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\cos x\)</span></td>
+<td><span class="arithmatex">\(-\sin x\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Power rule:</strong> <span class="arithmatex">\(\dfrac{d}{dx}(x^n) = nx^{n-1}\)</span>. This also works for negative exponents, e.g. <span class="arithmatex">\(\dfrac{1}{x^2} = x^{-2}\)</span>.</p>
+<p><strong>Worked example:</strong> Differentiate <span class="arithmatex">\(f(x) = \dfrac{1}{2}x^4 + 2x^3 - x^2 + x - 7\)</span>.</p>
+<p>Differentiate each term:</p>
+<div class="arithmatex">\[f'(x) = 2x^3 + 6x^2 - 2x + 1\]</div>
+<p><strong>Worked example:</strong> Differentiate <span class="arithmatex">\(f(x) = \dfrac{1}{x^2} + \ln x - \cos x\)</span>.</p>
+<p>Rewrite <span class="arithmatex">\(\dfrac{1}{x^2} = x^{-2}\)</span>:</p>
+<div class="arithmatex">\[f'(x) = -2x^{-3} + \dfrac{1}{x} + \sin x\]</div>
+<p><strong>Worked example — find a minimum:</strong> For <span class="arithmatex">\(f(x) = 3e^x - 6x\)</span>, find where <span class="arithmatex">\(f'(x) = 0\)</span>.</p>
+<div class="arithmatex">\[f'(x) = 3e^x - 6\]</div>
+<p>Set <span class="arithmatex">\(f'(x) = 0\)</span>:</p>
+<div class="arithmatex">\[3e^x = 6 \;\Rightarrow\; e^x = 2 \;\Rightarrow\; x = \ln 2 \approx 0.693\]</div>
+<p>At a minimum the tangent is horizontal, so <span class="arithmatex">\(f'(x) = 0\)</span>. To confirm it is a minimum (not a maximum), check that <span class="arithmatex">\(f'\)</span> is negative to the left of <span class="arithmatex">\(x = \ln 2\)</span> and positive to the right — or sketch the graph.</p>
+<p>The minimum value is:</p>
+<div class="arithmatex">\[f(\ln 2) = 3e^{\ln 2} - 6\ln 2 = 6 - 6\ln 2 \approx 1.84\]</div>
+<details class="tip">
+<summary>Check your understanding</summary>
+<p>Try <a href="/math_kickstarter/differential_calculus/#exercise-1">Exercises 1, 2, 9, and 10</a> on the topic page.</p>
+</details>
 
 
 
