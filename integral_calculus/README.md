@@ -180,82 +180,82 @@ body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
 
 Evaluate:
 
-1. $\int (3x^2 + 2) \, dx$
-2. $\int_0^2 x \, dx$
+1. $\int (5x^2 + 1) \, dx$
+2. $\displaystyle\int_0^3 3x \, dx$
 
 ??? answer "&nbsp;"
 
-    1. $x^3 + 2x + C$
-    2. $2$
+    1. $\dfrac{5x^3}{3} + x + C$
+    2. $\left[\dfrac{3x^2}{2}\right]_0^3 = \dfrac{27}{2}$
 
 #### Exercise 2
 
-Evaluate $\int (x^3 - 5x + 4) \, dx$.
+Evaluate $\int (x^4 - 2x^2 + 3) \, dx$.
 
 ??? answer "&nbsp;"
 
-    $\dfrac{x^4}{4} - \dfrac{5x^2}{2} + 4x + C$
+    $\dfrac{x^5}{5} - \dfrac{2x^3}{3} + 3x + C$
 
 #### Exercise 3
 
-Evaluate $\int \dfrac{2}{x} \, dx$.
+Evaluate $\int \dfrac{4}{x} \, dx$.
 
 ??? answer "&nbsp;"
 
-    $2\ln|x| + C$
+    $4\ln|x| + C$
 
 #### Exercise 4
 
-Evaluate $\int (3\cos x - \sin x) \, dx$.
+Evaluate $\int (2\cos x + 4\sin x) \, dx$.
 
 ??? answer "&nbsp;"
 
-    $3\sin x + \cos x + C$
+    $2\sin x - 4\cos x + C$
 
 #### Exercise 5
 
-Evaluate $\displaystyle\int_1^4 (2x + 1) \, dx$.
+Evaluate $\displaystyle\int_2^5 (3x + 2) \, dx$.
 
 ??? answer "&nbsp;"
 
-    An antiderivative is $x^2 + x$, so $[x^2 + x]_1^4 = (16 + 4) - (1 + 1) = 18$.
+    An antiderivative is $\dfrac{3x^2}{2} + 2x$, so $\left[\dfrac{3x^2}{2} + 2x\right]_2^5 = \left(\dfrac{75}{2} + 10\right) - (6 + 4) = \dfrac{75}{2}$.
 
 #### Exercise 6
 
-Evaluate $\displaystyle\int_0^{\pi/2} \sin x \, dx$.
+Evaluate $\displaystyle\int_0^{\pi/2} \cos x \, dx$.
 
 ??? answer "&nbsp;"
 
-    $[-\cos x]_0^{\pi/2} = (-\cos(\pi/2)) - (-\cos 0) = 0 - (-1) = 1$.
+    $[\sin x]_0^{\pi/2} = 1 - 0 = 1$.
 
 #### Exercise 7
 
-Evaluate $\displaystyle\int_{-1}^1 x \, dx$ and explain the result in terms of signed area.
+Evaluate $\displaystyle\int_{-2}^2 2x \, dx$ and explain the result in terms of signed area.
 
 ??? answer "&nbsp;"
 
-    $\left[\dfrac{x^2}{2}\right]_{-1}^1 = \dfrac{1}{2} - \dfrac{1}{2} = 0$. The graph of $y = x$ lies below the axis on $[-1, 0]$ and above on $[0, 1]$; equal areas with opposite signs cancel.
+    $\left[x^2\right]_{-2}^2 = 4 - 4 = 0$. The graph of $y = 2x$ lies below the axis on $[-2, 0]$ and above on $[0, 2]$; equal signed areas cancel.
 
 #### Exercise 8
 
-Find the area between the graph of $f(x) = x^2$ and the $x$-axis from $x = 0$ to $x = 3$.
+Find the area between the graph of $f(x) = x^2$ and the $x$-axis from $x = 0$ to $x = 2$.
 
 ??? answer "&nbsp;"
 
-    $\displaystyle\int_0^3 x^2 \, dx = \left[\dfrac{x^3}{3}\right]_0^3 = 9$. Since $x^2 \geq 0$ on $[0, 3]$, the integral equals the geometric area.
+    $\displaystyle\int_0^2 x^2 \, dx = \left[\dfrac{x^3}{3}\right]_0^2 = \dfrac{8}{3}$. Since $x^2 \geq 0$ on $[0, 2]$, the integral equals the geometric area.
 
 #### Exercise 9
 
-Verify that $F(x) = \dfrac{x^3}{3} + 5x$ is an antiderivative of $f(x) = x^2 + 5$ by differentiating $F$, then evaluate $\displaystyle\int_0^2 (x^2 + 5) \, dx$.
+Verify that $F(x) = \dfrac{x^3}{3} + 4x$ is an antiderivative of $f(x) = x^2 + 4$ by differentiating $F$, then evaluate $\displaystyle\int_0^1 (x^2 + 4) \, dx$.
 
 ??? answer "&nbsp;"
 
-    $F'(x) = x^2 + 5 = f(x)$, so $F$ is an antiderivative. $\displaystyle\int_0^2 (x^2 + 5) \, dx = F(2) - F(0) = \left(\dfrac{8}{3} + 10\right) - 0 = \dfrac{38}{3}$.
+    $F'(x) = x^2 + 4 = f(x)$, so $F$ is an antiderivative. $\displaystyle\int_0^1 (x^2 + 4) \, dx = F(1) - F(0) = \left(\dfrac{1}{3} + 4\right) - 0 = \dfrac{13}{3}$.
 
 #### Exercise 10
 
-A velocity function is $v(t) = 3t^2 - 2$ (in m/s). Find the displacement from $t = 0$ to $t = 2$ seconds.
+A velocity function is $v(t) = t^2 + 1$ (in m/s). Find the displacement from $t = 0$ to $t = 3$ seconds.
 
 ??? answer "&nbsp;"
 
-    Displacement $= \displaystyle\int_0^2 (3t^2 - 2) \, dt = [t^3 - 2t]_0^2 = (8 - 4) - 0 = 4$ m.
+    Displacement $= \displaystyle\int_0^3 (t^2 + 1) \, dt = \left[\dfrac{t^3}{3} + t\right]_0^3 = (9 + 3) - 0 = 12$ m.

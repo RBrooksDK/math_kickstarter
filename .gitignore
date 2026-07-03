@@ -1,2 +1,7 @@
 site/
 .venv/
+
+# LaTeX build artifacts
+figures/tex/*.aux
+figures/tex/*.log
+figures/tex/*.synctex.gz

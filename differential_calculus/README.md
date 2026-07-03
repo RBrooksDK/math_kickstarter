@@ -179,82 +179,84 @@ body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
 
 Differentiate the following:
 
-1. $f(x) = 5x^4$
-2. $f(x) = 3x^2 + 2x - 7$
+1. $f(x) = 4x^5$
+2. $f(x) = 2x^3 - 5x + 4$
 
 ??? answer "&nbsp;"
 
-    1. $f'(x) = 20x^3$
-    2. $f'(x) = 6x + 2$
+    1. $f'(x) = 20x^4$
+    2. $f'(x) = 6x^2 - 5$
 
 #### Exercise 2
 
-Differentiate $f(x) = x^5 - 4x^3 + x$.
+Differentiate $f(x) = x^4 - 3x^2 + 2x$.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = 5x^4 - 12x^2 + 1$
+    $f'(x) = 4x^3 - 6x + 2$
 
 #### Exercise 3
 
-Differentiate $f(x) = e^x + 6$.
+Differentiate $f(x) = 7e^x - 3$.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = e^x$
+    $f'(x) = 7e^x$
 
 #### Exercise 4
 
-Differentiate $f(x) = \ln x$.
+Differentiate $f(x) = 5\ln x$.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = \dfrac{1}{x}$
+    $f'(x) = \dfrac{5}{x}$
 
 #### Exercise 5
 
-Differentiate $f(x) = \sin x + \cos x$.
+Differentiate $f(x) = 3\cos x - \sin x$.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = \cos x - \sin x$
+    $f'(x) = -3\sin x - \cos x$
 
 #### Exercise 6
 
-Differentiate $f(x) = 2\sin x - 3\cos x + e^x$.
+Differentiate $f(x) = 4\cos x + 2\sin x + 3e^x$.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = 2\cos x + 3\sin x + e^x$
+    $f'(x) = -4\sin x + 2\cos x + 3e^x$
 
 #### Exercise 7
 
-Find the value(s) of $x$ where $f'(x) = 0$ for $f(x) = x^2 - 4x + 3$.
+Find the value(s) of $x$ where $f'(x) = 0$ for $f(x) = x^2 - 6x + 5$.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = 2x - 4$, so $2x - 4 = 0$ gives $x = 2$.
+    $f'(x) = 2x - 6$, so $2x - 6 = 0$ gives $x = 3$.
 
 #### Exercise 8
 
-For $f(x) = -x^2 + 6x$, find $f'(x)$ and state whether $f$ is increasing or decreasing at $x = 1$.
+For $f(x) = x^2 + 4x - 5$, find $f'(x)$ and state whether $f$ is increasing or decreasing at $x = 2$.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = -2x + 6$. At $x = 1$, $f'(1) = 4 > 0$, so $f$ is increasing at $x = 1$.
+    $f'(x) = 2x + 4$. At $x = 2$, $f'(2) = 8 > 0$, so $f$ is increasing at $x = 2$.
 
 #### Exercise 9
 
-Differentiate $f(x) = \dfrac{3}{x} + x^2$ (write $\dfrac{3}{x}$ as $3x^{-1}$ first).
+Differentiate $f(x) = \dfrac{2}{x} + 3x^2$ (write $\dfrac{2}{x}$ as $2x^{-1}$ first).
 
 ??? answer "&nbsp;"
 
-    $f(x) = 3x^{-1} + x^2$, so $f'(x) = -3x^{-2} + 2x = -\dfrac{3}{x^2} + 2x$.
+    $f(x) = 2x^{-1} + 3x^2$, so $f'(x) = -2x^{-2} + 6x = -\dfrac{2}{x^2} + 6x$.
 
 #### Exercise 10
 
-The graph of $f(x) = x^3 - 3x$ has a local maximum and a local minimum. Find where $f'(x) = 0$ and state which value of $x$ gives the local maximum.
+The graph of $f(x) = x^3 - 12x$ has a local maximum and a local minimum. Find where $f'(x) = 0$ and state which value of $x$ gives the local maximum.
 
 ??? answer "&nbsp;"
 
-    $f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x-1)(x+1)$, so $f'(x) = 0$ at $x = -1$ and $x = 1$. Evaluating: $f(-1) = 2$ and $f(1) = -2$, so the local maximum occurs at $x = -1$.
+    $f'(x) = 3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$, so $f'(x) = 0$ at $x = -2$ and $x = 2$.
+
+    $f(-2) = -8 + 24 = 16$ and $f(2) = 8 - 24 = -16$, so the local maximum occurs at $x = -2$.

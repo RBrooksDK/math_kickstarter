@@ -40,6 +40,10 @@ $$2x + 3 = 5 \;\Rightarrow\; 2x = 2 \;\Rightarrow\; x = 1$$
 
 **Worked example — reading a graph:** The graph of $f(x) = \sqrt{2x}$ passes through $(8, 4)$.
 
+<p align="center">
+  <img src="/math_kickstarter/figures/function_sqrt_2x.png" alt="Graph of f(x) = sqrt(2x) showing f(8) = 4 and f(x) = 5 at x = 12.5" />
+</p>
+
 That means $f(8) = 4$.
 
 To find the input when the output is $5$, use the graph (or solve $\sqrt{2x} = 5$):

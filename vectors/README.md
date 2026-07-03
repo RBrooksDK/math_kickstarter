@@ -190,86 +190,86 @@ body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
 
 #### Exercise 1
 
-Given $\mathbf{u} = (2, 1)$ and $\mathbf{v} = (3, 4)$, find:
+Given $\mathbf{u} = (4, -1)$ and $\mathbf{v} = (1, 5)$, find:
 
 1. $\mathbf{u} + \mathbf{v}$
 2. $\mathbf{u} - \mathbf{v}$
-3. $2\mathbf{u}$
+3. $3\mathbf{u}$
 
 ??? answer "&nbsp;"
 
-    1. $(5, 5)$
-    2. $(-1, -3)$
-    3. $(4, 2)$
+    1. $(5, 4)$
+    2. $(3, -6)$
+    3. $(12, -3)$
 
 #### Exercise 2
 
-Given $\mathbf{a} = (1, 3)$ and $\mathbf{b} = (2, -1)$, compute $\mathbf{a} \cdot \mathbf{b}$.
+Given $\mathbf{a} = (2, 4)$ and $\mathbf{b} = (3, -2)$, compute $\mathbf{a} \cdot \mathbf{b}$.
 
 ??? answer "&nbsp;"
 
-    $\mathbf{a} \cdot \mathbf{b} = 1 \cdot 2 + 3 \cdot (-1) = 2 - 3 = -1$
+    $\mathbf{a} \cdot \mathbf{b} = 2 \cdot 3 + 4 \cdot (-2) = 6 - 8 = -2$
 
 #### Exercise 3
 
-Find the length $|\mathbf{c}|$ when $\mathbf{c} = (-5, 12)$.
+Find the length $|\mathbf{c}|$ when $\mathbf{c} = (6, 8)$.
 
 ??? answer "&nbsp;"
 
-    $|\mathbf{c}| = \sqrt{(-5)^2 + 12^2} = \sqrt{25 + 144} = \sqrt{169} = 13$
+    $|\mathbf{c}| = \sqrt{6^2 + 8^2} = \sqrt{36 + 64} = \sqrt{100} = 10$
 
 #### Exercise 4
 
-Find $\cos\theta$ for the angle $\theta$ between $\mathbf{a} = (1, 0)$ and $\mathbf{b} = (1, 1)$.
+Find $\cos\theta$ for the angle $\theta$ between $\mathbf{a} = (3, 0)$ and $\mathbf{b} = (0, 4)$.
 
 ??? answer "&nbsp;"
 
-    $\mathbf{a} \cdot \mathbf{b} = 1$, $|\mathbf{a}| = 1$, and $|\mathbf{b}| = \sqrt{2}$, so $\cos\theta = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}$
+    $\mathbf{a} \cdot \mathbf{b} = 0$, $|\mathbf{a}| = 3$, and $|\mathbf{b}| = 4$, so $\cos\theta = 0$. The vectors are perpendicular.
 
 #### Exercise 5
 
-Are $\mathbf{u} = (2, 3)$ and $\mathbf{v} = (3, -2)$ perpendicular? Justify your answer.
+Are $\mathbf{u} = (1, 4)$ and $\mathbf{v} = (8, -2)$ perpendicular? Justify your answer.
 
 ??? answer "&nbsp;"
 
-    Yes. $\mathbf{u} \cdot \mathbf{v} = 2 \cdot 3 + 3 \cdot (-2) = 6 - 6 = 0$, so the vectors are perpendicular.
+    Yes. $\mathbf{u} \cdot \mathbf{v} = 1 \cdot 8 + 4 \cdot (-2) = 8 - 8 = 0$, so the vectors are perpendicular.
 
 #### Exercise 6
 
-Find the value of $k$ such that $\mathbf{a} = (1, k)$ and $\mathbf{b} = (2, 4)$ satisfy $\mathbf{a} \cdot \mathbf{b} = 10$.
+Find the value of $k$ such that $\mathbf{a} = (2, k)$ and $\mathbf{b} = (3, 1)$ satisfy $\mathbf{a} \cdot \mathbf{b} = 10$.
 
 ??? answer "&nbsp;"
 
-    $1 \cdot 2 + k \cdot 4 = 10 \;\Rightarrow\; 2 + 4k = 10 \;\Rightarrow\; 4k = 8 \;\Rightarrow\; k = 2$
+    $2 \cdot 3 + k \cdot 1 = 10 \;\Rightarrow\; 6 + k = 10 \;\Rightarrow\; k = 4$
 
 #### Exercise 7
 
-Given $\mathbf{a} = (1, 2)$ and $\mathbf{b} = (2, 1)$, find $3\mathbf{a} - 2\mathbf{b}$.
+Given $\mathbf{a} = (3, 1)$ and $\mathbf{b} = (1, 2)$, find $2\mathbf{a} - \mathbf{b}$.
 
 ??? answer "&nbsp;"
 
-    $3(1, 2) - 2(2, 1) = (3, 6) - (4, 2) = (-1, 4)$
+    $2(3, 1) - (1, 2) = (6, 2) - (1, 2) = (5, 0)$
 
 #### Exercise 8
 
-A line passes through the origin with direction vector $\mathbf{d} = (2, 3)$. Using $\mathbf{r} = t\mathbf{d}$, find the point on the line when $t = 2$.
+A line passes through the origin with direction vector $\mathbf{d} = (1, 4)$. Using $\mathbf{r} = t\mathbf{d}$, find the point on the line when $t = 3$.
 
 ??? answer "&nbsp;"
 
-    $\mathbf{r} = 2(2, 3) = (4, 6)$
+    $\mathbf{r} = 3(1, 4) = (3, 12)$
 
 #### Exercise 9 *(optional)*
 
-A line is given by $\mathbf{r} = (1, 2) + t(1, -1)$. Find the position vector when $t = 3$.
+A line is given by $\mathbf{r} = (2, 1) + t(2, 3)$. Find the position vector when $t = 2$.
 
 ??? answer "&nbsp;"
 
-    $\mathbf{r} = (1, 2) + 3(1, -1) = (1 + 3,\; 2 - 3) = (4, -1)$
+    $\mathbf{r} = (2, 1) + 2(2, 3) = (2 + 4,\; 1 + 6) = (6, 7)$
 
 #### Exercise 10
 
-Given $\mathbf{a} = (1, 2)$ and $\mathbf{b} = (3, 1)$, find $|\mathbf{a} + \mathbf{b}|$.
+Given $\mathbf{a} = (4, 1)$ and $\mathbf{b} = (1, 2)$, find $|\mathbf{a} + \mathbf{b}|$.
 
 ??? answer "&nbsp;"
 
-    $\mathbf{a} + \mathbf{b} = (4, 3)$, so $|\mathbf{a} + \mathbf{b}| = \sqrt{4^2 + 3^2} = \sqrt{16 + 9} = 5$
+    $\mathbf{a} + \mathbf{b} = (5, 3)$, so $|\mathbf{a} + \mathbf{b}| = \sqrt{5^2 + 3^2} = \sqrt{25 + 9} = \sqrt{34}$
